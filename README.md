@@ -2,7 +2,6 @@
 Paper list on reasoning in NLP.
 
 ## Large Languague Model Reasoning
----
 1. **Show Your Work: Scratchpads for Intermediate Computation with Language Models** arXiv (2021)
 
    *Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David Luan, Charles Sutton, Augustus Odena* [[pdf](https://arxiv.org/pdf/2112.00114.pdf)]
