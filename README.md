@@ -42,3 +42,6 @@ Paper list on reasoning in NLP.
 
     *Honghua Zhang, Liunian Harold Li, Tao Meng, Kai-Wei Chang, Guy Van den Broeck* [[pdf](https://arxiv.org/pdf/2205.11502.pdf)] [[project](https://github.com/joshuacnf/paradox-learning2reason)]
 
+## Contributor:
+
+Fei Yu
