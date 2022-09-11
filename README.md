@@ -45,6 +45,7 @@ Paper list on reasoning in NLP.
     *Honghua Zhang, Liunian Harold Li, Tao Meng, Kai-Wei Chang, Guy Van den Broeck* [[pdf](https://arxiv.org/pdf/2205.11502.pdf)] [[project](https://github.com/joshuacnf/paradox-learning2reason)]
 
 ## Knowledge Graph Reasoning
+also called as "Knowledge Graph Completion"
 1. **Probabilistic Logic Neural Networks for Reasoning** NIPS (2019)
 
    *Meng Qu, Jian Tang* [[pdf](https://papers.nips.cc/paper/2019/file/13e5ebb0fa112fe1b31a1067962d74a7-Paper.pdf)]
