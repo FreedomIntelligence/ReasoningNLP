@@ -44,6 +44,7 @@ Paper list on reasoning in NLP.
 
     *Honghua Zhang, Liunian Harold Li, Tao Meng, Kai-Wei Chang, Guy Van den Broeck* [[pdf](https://arxiv.org/pdf/2205.11502.pdf)] [[project](https://github.com/joshuacnf/paradox-learning2reason)]
 
+
 ## Knowledge Graph Reasoning
 also called as "Knowledge Graph Completion"
 1. **Probabilistic Logic Neural Networks for Reasoning** NIPS (2019)
@@ -69,6 +70,54 @@ also called as "Knowledge Graph Completion"
 6. **Quantum Embedding of Knowledge for Reasoning** NIPS (2019)
 
    *Dinesh Garg, Shajith Ikbal, Santosh K. Srivastava, Harit Vishwakarma, Hima P. Karanam, L. Venkata Subramaniam* [[pdf](https://papers.nips.cc/paper/2019/file/cb12d7f933e7d102c52231bf62b8a678-Paper.pdf)] [[project](https://github.com/IBM/e2r)]
+
+
+## Commonsense Reasoning
+### Winograd Schema Challenge & Pronoun Disambiguation Problem
+1. **Unsupervised Deep Structured Semantic Models for Commonsense Reasoning** NAACL (2019)
+
+   *Shuohang Wang, Sheng Zhang, Yelong Shen, Xiaodong Liu, Jingjing Liu, Jianfeng Gao, Jing Jiang* [[pdf](https://aclanthology.org/N19-1094.pdf)]
+
+2. **Attention Is (not) All You Need for Commonsense Reasoning** EMNLP (2019)
+
+   *Tassilo Klein, Moin Nabi* [[pdf](https://aclanthology.org/P19-1477.pdf)]
+
+3. **How Reasonable are Common-Sense Reasoning Tasks: A Case-Study on the Winograd Schema Challenge and SWAG** EMNLP (2019)
+
+   *Paul Trichelair, Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung* [[pdf](https://aclanthology.org/D19-1335.pdf)] [[project](https://github.com/ptrichel/How-Reasonable-are-Common-Sense-Reasoning-Tasks)]
+
+### Grounded Commonsense Inference
+1. **How Reasonable are Common-Sense Reasoning Tasks: A Case-Study on the Winograd Schema Challenge and SWAG** EMNLP (2019)
+
+   *Paul Trichelair, Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung* [[pdf](https://aclanthology.org/D19-1335.pdf)] [[project](https://github.com/ptrichel/How-Reasonable-are-Common-Sense-Reasoning-Tasks)]
+
+### Commonsense Question Answering
+1. **Explain Yourself! Leveraging Language Models for Commonsense Reasoning** ACL (2019)
+
+   *Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, Richard Socher* [[pdf](https://aclanthology.org/P19-1487.pdf)] [[project](https://github.com/salesforce/cos-e)]
+
+### If-Then
+1. **Modeling Event Background for If-Then Commonsense Reasoning Using Context-aware Variational Autoencoder** EMNLP (2019)
+
+   *Li Du, Xiao Ding, Ting Liu, Zhongyang Li* [[pdf](https://aclanthology.org/D19-1270.pdf)] [[project](https://github.com/sjcfr/CWVAE)]
+
+### Dataset
+1. **Explain Yourself! Leveraging Language Models for Commonsense Reasoning** ACL (2019)
+
+   *Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, Richard Socher* [[pdf](https://aclanthology.org/P19-1487.pdf)] [[project](https://github.com/salesforce/cos-e)]
+
+2. **SOCIAL IQA: Commonsense Reasoning about Social Interactions** EMNLP (2019)
+
+   *Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, Yejin Choi* [[pdf](https://aclanthology.org/D19-1454.pdf)] [[project](https://tinyurl.com/socialiqa)]
+
+3. **Cosmos QA: Machine Reading Comprehension with Contextual Commonsense Reasoning** EMNLP (2019)
+
+   *Lifu Huang, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi* [[pdf](http://aclanthology.lst.uni-saarland.de/D19-1243.pdf)] [[project](https://wilburone.github.io/cosmos)]
+
+4. **WIQA: A dataset for "What if..." reasoning over procedural text** EMNLP (2019)
+
+   *Niket Tandon, Bhavana Dalvi, Keisuke Sakaguchi, Peter Clark* [[pdf](https://aclanthology.org/D19-1629.pdf)] [[project](http://data.allenai.org/wiqa)]
+
 
 ## Contributor
 
