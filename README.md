@@ -51,7 +51,7 @@ Paper list on reasoning in NLP.
 
 
 ## Knowledge Graph Reasoning
-Knowledge graph completion task aims to complete the graph, while multi-hop reasoning is the task querying in incomplete graphs. Both these two tasks are called knowledge graph reasoning.
+Knowledge graph completion task aims to complete the graph, while multi-hop reasoning is the task querying in incomplete graphs. Both these two tasks require reasoning over knowledge graphs. There are also some other reasoning tasks. 
 
 ### Knowledge Graph Completion
 1. **Collaborative Policy Learning for Open Knowledge Graph Reasoning** EMNLP (2019)
@@ -130,6 +130,10 @@ Knowledge graph completion task aims to complete the graph, while multi-hop reas
 
 
 
+
+
+
+## Mathematical Reasoning
 
 
 
