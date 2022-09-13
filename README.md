@@ -51,7 +51,7 @@ Paper list on reasoning in NLP.
 
 
 ## Knowledge Graph Reasoning
-Knowledge graph completion task aims to complete the graph, while multi-hop reasoning is the task querying in incomplete graphs. Both these two tasks require reasoning over knowledge graphs. There are also some other reasoning tasks. 
+**Knowledge graph completion** task aims to complete the graph, while **multi-hop reasoning** is the task querying in incomplete graphs. Both these two tasks require reasoning over knowledge graphs. There are also some **other** reasoning tasks. 
 
 ### Knowledge Graph Completion
 1. **Collaborative Policy Learning for Open Knowledge Graph Reasoning** EMNLP (2019)
@@ -134,6 +134,59 @@ Knowledge graph completion task aims to complete the graph, while multi-hop reas
 
 
 ## Mathematical Reasoning
+Mathematics is a game of symbols and symbol manipulation rules full of reasoning, which makes it a natural problem to test AI's ability of reasoning. Problems are expressed in four forms: **symbol-only**, **natural language-assisted**, **natural language-only**, and **in-text**.
+
+### Symbol-only
+1. **Mathematical Reasoning via Self-supervised Skip-tree Training** ICLR Spotlight (2021)
+
+   *Markus Norman Rabe, Dennis Lee, Kshitij Bansal, Christian Szegedy* [[pdf](https://openreview.net/pdf?id=YmqAnY0CMEy)]
+
+2. **Mathematical Reasoning in Latent Space** ICLR Oral (2020)
+
+   *Dennis Lee, Christian Szegedy, Markus N. Rabe, Sarah M. Loos, Kshitij Bansal* [[pdf](https://openreview.net/pdf?id=Ske31kBtPr)]
+
+3. **LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning** ICML (2021)
+
+   *Yuhuai Wu, Markus N. Rabe, Wenda Li, Jimmy Ba, Roger B. Grosse, Christian Szegedy* [[pdf](http://proceedings.mlr.press/v139/wu21c/wu21c.pdf)] [[project](https://github.com/tonywu95/LIME)]
+
+### Natural language-assisted
+1. **Analysing Mathematical Reasoning Abilities of Neural Models** ICLR Poster (2019)
+
+   *David Saxton, Edward Grefenstette, Felix Hill, Pushmeet Kohli* [[pdf](https://openreview.net/pdf?id=H1gR5iR5FX)] [[project](https://github.com/deepmind/mathematics_dataset)]
+
+2. **IsarStep: a Benchmark for High-level Mathematical Reasoning** ICLR Poster (2021)
+
+   *Wenda Li, Lei Yu, Yuhuai Wu, Lawrence C. Paulson* [[pdf](https://openreview.net/pdf?id=Pzj6fzU6wkj)] [[project](https://github.com/Wenda302/IsarStep)]
+
+### Natural language-only
+1. **Semantically-Aligned Equation Generation for Solving and Reasoning Math Word Problems** NAACL (2019)
+
+   *Ting-Rui Chiang, Yun-Nung Chen* [[pdf](https://aclanthology.org/N19-1272.pdf)] [[project](https://github/MiuLab/E2EMathSolver)]
+
+### In-text
+This is the **numerical reasoning** problem in *reading comprehension* task, where the numerical evidence is scattered in a natural language text.
+
+1. **NumNet: Machine Reading Comprehension with Numerical Reasoning** EMNLP (2019)
+
+   *Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, Zhiyuan Liu* [[pdf](https://aclanthology.org/D19-1251.pdf)] [[project](https://github.com/ranqiu92/NumNet)]
+
+2. **Question Directed Graph Attention Network for Numerical Reasoning over Text** EMNLP (2020)
+
+   *Kunlong Chen, Weidi Xu, Xingyi Cheng, Zou Xiaochuan, Yuyu Zhang, Le Song, Taifeng Wang, Yuan Qi, Wei Chu* [[pdf](https://aclanthology.org/2020.emnlp-main.549.pdf)]
+
+3. **Injecting Numerical Reasoning Skills into Language Models** ACL (2020)
+
+   *Mor Geva, Ankit Gupta, Jonathan Berant* [[pdf](https://aclanthology.org/2020.acl-main.89.pdf)] [[project](https://github.com/ag1988/injecting_numeracy)]
+
+4. **Neural Module Networks for Reasoning over Text** ICLR Poster (2020)
+
+   *Nitish Gupta, Kevin Lin, Dan Roth, Sameer Singh, Matt Gardner* [[pdf](https://openreview.net/pdf?id=SygWvAVFPr)] [[project](http://cogcomp.org/page/publication_view/899)]
+
+
+
+
+
+
 
 
 
