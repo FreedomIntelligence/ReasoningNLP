@@ -51,7 +51,7 @@ Paper list on reasoning in NLP.
 
 
 ## Knowledge Graph Reasoning
-**Knowledge graph completion** task aims to complete the graph, while **multi-hop reasoning** is the task querying in incomplete graphs. Both these two tasks require reasoning over knowledge graphs. There are also some **other** reasoning tasks. 
+**Knowledge graph completion** task aims to complete the graph, while **multi-hop reasoning over KG** is the task querying in incomplete graphs, both of which require reasoning over knowledge graphs. **Temporal knowledge graph reasoning** aims to predict links in future with the past quadruples. 
 
 ### Knowledge Graph Completion
 1. **Collaborative Policy Learning for Open Knowledge Graph Reasoning** EMNLP (2019)
@@ -87,8 +87,21 @@ Paper list on reasoning in NLP.
 
    *Xin Lv, Xu Han, Lei Hou, Juanzi Li, Zhiyuan Liu, Wei Zhang, Yichi Zhang, Hao Kong, Suhui Wu* [[pdf](https://aclanthology.org/2020.emnlp-main.459.pdf)] [[project](https://github.com/THU-KEG/DacKGR)]
 
+9. **UniKER: A Unified Framework for Combining Embedding and Definite Horn Rule Reasoning for Knowledge Graph Inference** EMNLP (2021)
 
-### Multi-Hop Reasoning
+   *Kewei Cheng, Ziqing Yang, Ming Zhang, Yizhou Sun* [[pdf](https://aclanthology.org/2021.emnlp-main.769.pdf)]
+
+10. **Is Multi-Hop Reasoning Really Explainable? Towards Benchmarking Reasoning Interpretability** EMNLP (2021)
+   
+   *Xin Lv, Yixin Cao, Lei Hou, Juanzi Li, Zhiyuan Liu, Yichi Zhang, Zelin Dai* [[pdf](https://aclanthology.org/2021.emnlp-main.700.pdf)] [[project](https://github.com/THU-KEG/BIMR)]
+
+11. **GMH: A General Multi-hop Reasoning Model for KG Completion** EMNLP (2021)
+   
+   *Yao Zhang, Hongru Liang, Adam Jatowt, Wenqiang Lei, Xin Wei, Ning Jiang, Zhenglu Yang* [[pdf](https://aclanthology.org/2021.emnlp-main.276.pdf)]
+
+
+
+### Multi-Hop Reasoning over KG
 1. **Query2box: Reasoning over Knowledge Graphs in Vector Space Using Box Embeddings** ICLR Poster (2020)
 
    *Hongyu Ren, Weihua Hu, Jure Leskovec* [[pdf](https://openreview.net/pdf?id=BJgr4kSFDS)] [[project](http://snap.stanford.edu/query2box)]
@@ -104,6 +117,22 @@ Paper list on reasoning in NLP.
 4. **ConE: Cone Embeddings for Multi-Hop Reasoning over Knowledge Graphs** NIPS (2021)
 
    *Zhanqiu Zhang, Jie Wang, Jiajun Chen, Shuiwang Ji, Feng Wu* [[pdf](https://papers.nips.cc/paper/2021/file/a0160709701140704575d499c997b6ca-Paper.pdf)] [[project](https://github.com/MIRALab-USTC/QE-ConE)]
+
+
+
+### Temporal Knowledge Graph Reasoning
+1. **Explainable Subgraph Reasoning for Forecasting on Temporal Knowledge Graphs** ICLR Poster (2021)
+
+   *Zhen Han, Peng Chen, Yunpu Ma, Volker Tresp* [[pdf](https://openreview.net/pdf?id=pGIHq1m7PU)] [[project](https://github.com/TemporalKGTeam/xERTE)]
+
+2. **Search from History and Reason for Future: Two-stage Reasoning on Temporal Knowledge Graphs** ACL (2021)
+
+   *Zixuan Li, Xiaolong Jin, Saiping Guan, Wei Li, Jiafeng Guo, Yuanzhuo Wang, Xueqi Cheng* [[pdf](https://aclanthology.org/2021.acl-long.365.pdf)]
+
+3. **Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning** ACL (2022)
+
+   *Zixuan Li, Saiping Guan, Xiaolong Jin, Weihua Peng, Yajuan Lyu, Yong Zhu, Long Bai, Wei Li, Jiafeng Guo, Xueqi Cheng* [[pdf](https://aclanthology.org/2022.acl-short.32.pdf)] [[project](https://github.com/Lee-zix/CEN)]
+
 
 
 ### Others
@@ -123,10 +152,6 @@ Paper list on reasoning in NLP.
 
    *Yuyu Zhang, Xinshi Chen, Yuan Yang, Arun Ramamurthy, Bo Li, Yuan Qi, Le Song* [[pdf](https://openreview.net/pdf?id=rJg76kStwH)]
 
-5. **Explainable Subgraph Reasoning for Forecasting on Temporal Knowledge Graphs** ICLR Poster (2021)
-
-   *Zhen Han, Peng Chen, Yunpu Ma, Volker Tresp* [[pdf](https://openreview.net/pdf?id=pGIHq1m7PU)] [[project](https://github.com/TemporalKGTeam/xERTE)]
-
 
 
 
@@ -134,38 +159,34 @@ Paper list on reasoning in NLP.
 
 
 ## Mathematical Reasoning
-Mathematics is a game of symbols and symbol manipulation rules full of reasoning, which makes it a natural problem to test AI's ability of reasoning. Problems are expressed in four forms: **symbol-only**, **natural language-assisted**, **natural language-only**, and **in-text**.
+Mathematics is a game of symbols and symbol manipulation rules full of reasoning, which makes it a natural problem to test AI's ability of reasoning. **Math word problem** aims to answer mathematical questions described by natural language text. **Automated theorem proving** focuses on theoretical proving. **Numerical reasoning** aims to solve problems that requires numerical calculation (e.g. addition, sorting and counting) over numerical evidence scattered in text or tables. 
 
-### Symbol-only
-1. **Mathematical Reasoning via Self-supervised Skip-tree Training** ICLR Spotlight (2021)
-
-   *Markus Norman Rabe, Dennis Lee, Kshitij Bansal, Christian Szegedy* [[pdf](https://openreview.net/pdf?id=YmqAnY0CMEy)]
-
-2. **Mathematical Reasoning in Latent Space** ICLR Oral (2020)
-
-   *Dennis Lee, Christian Szegedy, Markus N. Rabe, Sarah M. Loos, Kshitij Bansal* [[pdf](https://openreview.net/pdf?id=Ske31kBtPr)]
-
-3. **LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning** ICML (2021)
-
-   *Yuhuai Wu, Markus N. Rabe, Wenda Li, Jimmy Ba, Roger B. Grosse, Christian Szegedy* [[pdf](http://proceedings.mlr.press/v139/wu21c/wu21c.pdf)] [[project](https://github.com/tonywu95/LIME)]
-
-### Natural language-assisted
-1. **Analysing Mathematical Reasoning Abilities of Neural Models** ICLR Poster (2019)
-
-   *David Saxton, Edward Grefenstette, Felix Hill, Pushmeet Kohli* [[pdf](https://openreview.net/pdf?id=H1gR5iR5FX)] [[project](https://github.com/deepmind/mathematics_dataset)]
-
-2. **IsarStep: a Benchmark for High-level Mathematical Reasoning** ICLR Poster (2021)
-
-   *Wenda Li, Lei Yu, Yuhuai Wu, Lawrence C. Paulson* [[pdf](https://openreview.net/pdf?id=Pzj6fzU6wkj)] [[project](https://github.com/Wenda302/IsarStep)]
-
-### Natural language-only
+### Math Word Problem
 1. **Semantically-Aligned Equation Generation for Solving and Reasoning Math Word Problems** NAACL (2019)
 
    *Ting-Rui Chiang, Yun-Nung Chen* [[pdf](https://aclanthology.org/N19-1272.pdf)] [[project](https://github/MiuLab/E2EMathSolver)]
 
-### In-text
-This is the **numerical reasoning** problem in *reading comprehension* task, where the numerical evidence is scattered in a natural language text.
+2. **Measuring and Improving BERT's Mathematical Abilities by Predicting the Order of Reasoning** ACL (2021)
 
+   *Piotr Piekos, Mateusz Malinowski, Henryk Michalewski* [[pdf](https://aclanthology.org/2021.acl-short.49.pdf)]
+
+3. **Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction** ACL (2022)
+
+   *Zhanming Jie, Jierui Li, Wei Lu* [[pdf](https://aclanthology.org/2022.acl-long.410.pdf)] [[project](https://github.com/allanj/Deductive-MWP)]
+
+
+### Automated Theorem Proving
+1. **Mathematical Reasoning via Self-supervised Skip-tree Training** ICLR Spotlight (2021)
+
+   *Markus Norman Rabe, Dennis Lee, Kshitij Bansal, Christian Szegedy* [[pdf](https://openreview.net/pdf?id=YmqAnY0CMEy)]
+
+2. **LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning** ICML (2021)
+
+   *Yuhuai Wu, Markus N. Rabe, Wenda Li, Jimmy Ba, Roger B. Grosse, Christian Szegedy* [[pdf](http://proceedings.mlr.press/v139/wu21c/wu21c.pdf)] [[project](https://github.com/tonywu95/LIME)]
+
+
+
+### Numerical Reasoning
 1. **NumNet: Machine Reading Comprehension with Numerical Reasoning** EMNLP (2019)
 
    *Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, Zhiyuan Liu* [[pdf](https://aclanthology.org/D19-1251.pdf)] [[project](https://github.com/ranqiu92/NumNet)]
@@ -181,6 +202,58 @@ This is the **numerical reasoning** problem in *reading comprehension* task, whe
 4. **Neural Module Networks for Reasoning over Text** ICLR Poster (2020)
 
    *Nitish Gupta, Kevin Lin, Dan Roth, Sameer Singh, Matt Gardner* [[pdf](https://openreview.net/pdf?id=SygWvAVFPr)] [[project](http://cogcomp.org/page/publication_view/899)]
+
+5. **OPERA: Operation-Pivoted Discrete Reasoning over Text** NAACL (2022)
+
+   *Yongwei Zhou, Junwei Bao, Chaoqun Duan, Haipeng Sun, Jiahui Liang, Yifan Wang, Jing Zhao, Youzheng Wu, Xiaodong He, Tiejun Zhao* [[pdf](https://aclanthology.org/2022.naacl-main.119.pdf)] [[project](https://github.com/JD-AI-Research-NLP/OPERA)]
+
+6. **FORTAP: Using Formulas for Numerical-Reasoning-Aware Table Pretraining** ACL (2022)
+
+   *Zhoujun Cheng, Haoyu Dong, Ran Jia, Pengfei Wu, Shi Han, Fan Cheng, Dongmei Zhang* [[pdf](https://aclanthology.org/2022.acl-long.82.pdf)] [[project](https://github.com/microsoft/TUTA_table_understanding)]
+
+7. **Incorporating External Knowledge to Enhance Tabular Reasoning** NAACL (2021)
+
+   *J. Neeraja, Vivek Gupta, Vivek Srikumar* [[pdf](https://aclanthology.org/2021.naacl-main.224.pdf)] [[project](https://github.com/utahnlp/knowledge_infotabs)]
+
+8. **Numerical reasoning in machine reading comprehension tasks: are we there yet?** EMNLP (2021)
+
+   *Hadeel Al-Negheimish, Pranava Madhyastha, Alessandra Russo* [[pdf](https://aclanthology.org/2021.emnlp-main.759.pdf)]
+
+
+### Benchmarks & Datasets
+1. **Analysing Mathematical Reasoning Abilities of Neural Models** ICLR Poster (2019)
+
+   *David Saxton, Edward Grefenstette, Felix Hill, Pushmeet Kohli* [[pdf](https://openreview.net/pdf?id=H1gR5iR5FX)] [[project](https://github.com/deepmind/mathematics_dataset)]
+
+2. **HOList: An Environment for Machine Learning of Higher-Order Theorem Proving** ICML (2019)
+
+   *Kshitij Bansal, Sarah M. Loos, Markus N. Rabe, Christian Szegedy, Stewart Wilcox* [[pdf](http://proceedings.mlr.press/v97/bansal19a/bansal19a.pdf)] [[project](http://deephol.org/t)]
+
+3. **IsarStep: a Benchmark for High-level Mathematical Reasoning** ICLR Poster (2021)
+
+   *Wenda Li, Lei Yu, Yuhuai Wu, Lawrence C. Paulson* [[pdf](https://openreview.net/pdf?id=Pzj6fzU6wkj)] [[project](https://github.com/Wenda302/IsarStep)]
+
+4. **DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs** EMNLP (2019)
+
+   *Dheeru Dua, Yizhong Wang, Pradeep Dasigi, Gabriel Stanovsky, Sameer Singh, Matt Gardner* [[pdf](https://aclanthology.org/N19-1246.pdf)] [[project](https://allennlp.org/drop)]
+
+
+### Others
+1. **Mathematical Reasoning in Latent Space** ICLR Oral (2020)
+
+   *Dennis Lee, Christian Szegedy, Markus N. Rabe, Sarah M. Loos, Kshitij Bansal* [[pdf](https://openreview.net/pdf?id=Ske31kBtPr)]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
