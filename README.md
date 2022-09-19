@@ -99,6 +99,9 @@ Paper list on reasoning in NLP.
 
       *Yao Zhang, Hongru Liang, Adam Jatowt, Wenqiang Lei, Xin Wei, Ning Jiang, Zhenglu Yang* [[pdf](https://aclanthology.org/2021.emnlp-main.276.pdf)]
 
+12. **Neural-Symbolic Commonsense Reasoner with Relation Predictors** ACL (2021)
+   
+      *Farhad Moghimifar, Lizhen Qu, Yue Zhuo, Gholamreza Haffari, Mahsa Baktashmotlagh* [[pdf](https://aclanthology.org/2021.acl-short.100.pdf)] [[project](https://github.com/farhadmfar/commonsense_reasoner)]
 
 
 ### Multi-Hop Reasoning over KG
