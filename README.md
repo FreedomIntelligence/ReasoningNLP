@@ -2,35 +2,31 @@
 Paper list on reasoning in NLP.
 
 ## Languague Model Reasoning
-1. **Critical Thinking for Language Models** IWCS (2021)
-
-   *Gregor Betz, Christian Voigt, Kyle Richardson* [[pdf](https://aclanthology.org/2021.iwcs-1.7.pdf)] [[project](https://github.com/debatelab/aacorpus)]
-
-2. **Show Your Work: Scratchpads for Intermediate Computation with Language Models** arXiv (2021)
+1. **Show Your Work: Scratchpads for Intermediate Computation with Language Models** arXiv (2021)
 
    *Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David Luan, Charles Sutton, Augustus Odena* [[pdf](https://arxiv.org/pdf/2112.00114.pdf)]
 
-3. **Chain of Thought Prompting Elicits Reasoning in Large Language Models** arXiv (2022)
+2. **Chain of Thought Prompting Elicits Reasoning in Large Language Models** arXiv (2022)
 
    *Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou* [[pdf](https://arxiv.org/pdf/2201.11903.pdf)] [[project](https://github.com/jasonwei20/chain-of-thought-prompting)]
 
-4. **STaR: Bootstrapping Reasoning With Reasoning** arXiv (2022)
+3. **STaR: Bootstrapping Reasoning With Reasoning** arXiv (2022)
 
    *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah D. Goodman* [[pdf](https://arxiv.org/pdf/2203.14465.pdf)]
 
-5. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
+4. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
 
    *Antonia Creswell, Murray Shanahan, Irina Higgins* [[pdf](https://arxiv.org/pdf/2205.09712.pdf)]
 
-6. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models** arXiv (2022)
+5. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models** arXiv (2022)
 
    *Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, Ed Chi* [[pdf](https://arxiv.org/pdf/2205.10625.pdf)]
 
-7. **Large Language Models are Zero-Shot Reasoners** arXiv (2022)
+6. **Large Language Models are Zero-Shot Reasoners** arXiv (2022)
 
    *Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa* [[pdf](https://arxiv.org/pdf/2205.11916.pdf)] [[project](https://github.com/kojima-takeshi188/zero_shot_cot)]
 
-8. **Faithful Reasoning Using Large Language Models** arXiv (2022)
+7. **Faithful Reasoning Using Large Language Models** arXiv (2022)
 
    *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
 
@@ -162,6 +158,47 @@ Paper list on reasoning in NLP.
 6. **Probabilistic Box Embeddings for Uncertain Knowledge Graph Reasoning** NAACL (2021)
 
    *Xuelu Chen, Michael Boratko, Muhao Chen, Shib Sankar Dasgupta, Xiang Lorraine Li, Andrew McCallum* [[pdf](https://aclanthology.org/2021.naacl-main.68.pdf)] [[project](https://github.com/stasl0217/beurre)]
+
+
+
+
+
+
+
+
+
+## Rule-based Reasoning
+Facts and rules are explicitly provided as natural language texts, and Transformers are used as soft reasoners over them. 
+
+1. **Transformers as Soft Reasoners over Language** IJCAI (2020)
+
+   *Peter Clark, Oyvind Tafjord, Kyle Richardson* [[pdf](https://www.ijcai.org/proceedings/2020/0537.pdf)] [[project](https://allenai.org/data/ruletaker)]
+
+2. **PRover: Proof Generation for Interpretable Reasoning over Rules** EMNLP (2020)
+
+   *Swarnadeep Saha, Sayan Ghosh, Shashank Srivastava, Mohit Bansal* [[pdf](https://aclanthology.org/2020.emnlp-main.9.pdf)] [[project](https://github.com/swarnaHub/PRover)]
+
+3. **multiPRover: Generating Multiple Proofs for Improved Interpretability in Rule Reasoning** NAACL (2021)
+
+   *Swarnadeep Saha, Prateek Yadav, Mohit Bansal* [[pdf](https://aclanthology.org/2021.naacl-main.287.pdf)] [[project](https://github.com/swarnaHub/multiPRover)]
+
+4. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
+
+   *Soumya Sanyal, Harman Singh, Xiang Ren* [[pdf](https://aclanthology.org/2022.acl-long.77.pdf)] [[project](https://github.com/INK-USC/FaiRR)]
+
+5. **Explainable Multi-hop Verbal Reasoning Through Internal Monologue** NAACL (2021)
+
+   *Zhengzhong Liang, Steven Bethard, Mihai Surdeanu* [[pdf](https://aclanthology.org/2021.naacl-main.97.pdf)] [[project](https://github.com/clulab/releases/tree/master/naacl2021-evr)]
+
+6. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
+
+   *Hanhao Qu, Yu Cao, Jun Gao, Liang Ding, Ruifeng Xu* [[pdf](https://aclanthology.org/2022.naacl-main.216.pdf)] [[project](https://github.com/find-knowledge/IBR)]
+
+7. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
+
+   *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
+
+
 
 
 
