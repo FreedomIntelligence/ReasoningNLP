@@ -340,7 +340,7 @@ Mathematics is a game of symbols and symbol manipulation rules full of reasoning
 
 
 
-# Fact Verification
+## Fact Verification
 
 1. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification** ACL (2019)
 
