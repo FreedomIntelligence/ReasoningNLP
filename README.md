@@ -167,7 +167,7 @@ Paper list on reasoning in NLP.
 
 
 
-## Rule-based Reasoning
+## Language Rulebase Reasoning
 Facts and rules are explicitly provided as natural language texts, and Transformers are used as soft reasoners over them. 
 
 1. **Transformers as Soft Reasoners over Language** IJCAI (2020)
@@ -182,21 +182,22 @@ Facts and rules are explicitly provided as natural language texts, and Transform
 
    *Swarnadeep Saha, Prateek Yadav, Mohit Bansal* [[pdf](https://aclanthology.org/2021.naacl-main.287.pdf)] [[project](https://github.com/swarnaHub/multiPRover)]
 
-4. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
+4. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
 
-   *Soumya Sanyal, Harman Singh, Xiang Ren* [[pdf](https://aclanthology.org/2022.acl-long.77.pdf)] [[project](https://github.com/INK-USC/FaiRR)]
+   *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
 
-5. **Explainable Multi-hop Verbal Reasoning Through Internal Monologue** NAACL (2021)
-
-   *Zhengzhong Liang, Steven Bethard, Mihai Surdeanu* [[pdf](https://aclanthology.org/2021.naacl-main.97.pdf)] [[project](https://github.com/clulab/releases/tree/master/naacl2021-evr)]
-
-6. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
+5. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
 
    *Hanhao Qu, Yu Cao, Jun Gao, Liang Ding, Ruifeng Xu* [[pdf](https://aclanthology.org/2022.naacl-main.216.pdf)] [[project](https://github.com/find-knowledge/IBR)]
 
-7. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
+6. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
 
-   *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
+   *Soumya Sanyal, Harman Singh, Xiang Ren* [[pdf](https://aclanthology.org/2022.acl-long.77.pdf)] [[project](https://github.com/INK-USC/FaiRR)]
+
+7. **Explainable Multi-hop Verbal Reasoning Through Internal Monologue** NAACL (2021)
+
+   *Zhengzhong Liang, Steven Bethard, Mihai Surdeanu* [[pdf](https://aclanthology.org/2021.naacl-main.97.pdf)] [[project](https://github.com/clulab/releases/tree/master/naacl2021-evr)]
+
 
 
 
@@ -335,6 +336,35 @@ Mathematics is a game of symbols and symbol manipulation rules full of reasoning
 
 
 
+
+
+
+
+# Fact Verification
+
+1. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification** ACL (2019)
+
+   *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li, Maosong Sun* [[pdf](https://aclanthology.org/P19-1085.pdf)] [[project](https://github.com/thunlp/GEAR)]
+
+2. **Topic-Aware Evidence Reasoning and Stance-Aware Aggregation for Fact Verification** ACL (2021)
+
+   *Jiasheng Si, Deyu Zhou, Tongzhe Li, Xingyu Shi, Yulan He* [[pdf](https://aclanthology.org/2021.acl-long.128.pdf)] [[project](https://github.com/jasenchn/TARSA)]
+
+3. **Reasoning Over Semantic-Level Graph for Fact Checking** ACL (2020)
+
+   *Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang, Jian Yin* [[pdf](https://aclanthology.org/2020.acl-main.549.pdf)]
+
+4. **Exploring Listwise Evidence Reasoning with T5 for Fact Verification** ACL (2021)
+
+   *Kelvin Jiang, Ronak Pradeep, Jimmy Lin* [[pdf](https://aclanthology.org/2021.acl-short.51.pdf)]
+
+5. **Transformer-XH: Multi-Evidence Reasoning with eXtra Hop Attention** ICLR Poster (2020)
+
+   *Chen Zhao, Chenyan Xiong, Corby Rosset, Xia Song, Paul N. Bennett, Saurabh Tiwary* [[pdf](https://openreview.net/pdf?id=r1eIiCNYwS)] [[project](https://aka.ms/transformer-xh)]
+
+6. **Automatic Fake News Detection: Are Models Learning to Reason?** ACL (2021)
+
+   *Casper Hansen, Christian Hansen, Lucas Chaves Lima* [[pdf](https://aclanthology.org/2021.acl-short.12.pdf)] [[project](https://github.com/casperhansen/fake-news-reasoning)]
 
 
 
