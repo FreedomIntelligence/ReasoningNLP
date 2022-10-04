@@ -46,6 +46,12 @@ Paper list on reasoning in NLP.
 
 
 
+
+
+
+
+
+
 ## Knowledge Graph Reasoning
 **Knowledge graph completion** task aims to complete the graph, while **multi-hop reasoning over KG** is the task querying in incomplete graphs, both of which require reasoning over knowledge graphs. **Temporal knowledge graph reasoning** aims to predict links in future with the past quadruples. 
 
@@ -117,6 +123,9 @@ Paper list on reasoning in NLP.
 
    *Zhanqiu Zhang, Jie Wang, Jiajun Chen, Shuiwang Ji, Feng Wu* [[pdf](https://papers.nips.cc/paper/2021/file/a0160709701140704575d499c997b6ca-Paper.pdf)] [[project](https://github.com/MIRALab-USTC/QE-ConE)]
 
+5. **Complex Query Answering with Neural Link Predictors** ICLR Oral (2021)
+
+   *Erik Arakelyan, Daniel Daza, Pasquale Minervini, Michael Cochez* [[pdf](https://openreview.net/pdf?id=Mos9F9kDwkz)] [[project](https://github.com/uclnlp/cqd)]
 
 
 ### Temporal Knowledge Graph Reasoning
@@ -167,6 +176,10 @@ Paper list on reasoning in NLP.
 
 
 
+
+
+
+
 ## Language Rulebase Reasoning
 Facts and rules are explicitly provided as natural language texts, and Transformers are used as soft reasoners over them. 
 
@@ -197,6 +210,11 @@ Facts and rules are explicitly provided as natural language texts, and Transform
 7. **Explainable Multi-hop Verbal Reasoning Through Internal Monologue** NAACL (2021)
 
    *Zhengzhong Liang, Steven Bethard, Mihai Surdeanu* [[pdf](https://aclanthology.org/2021.naacl-main.97.pdf)] [[project](https://github.com/clulab/releases/tree/master/naacl2021-evr)]
+
+
+
+
+
 
 
 
