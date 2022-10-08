@@ -471,7 +471,23 @@ Mathematics is a game of symbols and symbol manipulation rules full of reasoning
    *Zichu Fei, Qi Zhang, Tao Gui, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang* [[pdf](https://aclanthology.org/2022.acl-long.475.pdf)] [[project](https://github.com/sion-zcfei/CQG)]
 
 
+### Benchmarks & Datasets
 
+1. **Constructing Datasets for Multi-hop Reading Comprehension Across Documents** TACL (2018)
+
+   *Johannes Welbl, Pontus Stenetorp, Sebastian Riedel* [[pdf](https://aclanthology.org/Q18-1021.pdf)] [[project](http://qangaroo.cs.ucl.ac.uk/)]
+
+2. **HOTPOTQA: A Dataset for Diverse, Explainable Multi-hop Question Answering** EMNLP (2018)
+
+   *Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, Christopher D. Manning* [[pdf](https://arxiv.org/pdf/1809.09600.pdf)] [[project](https://hotpotqa.github.io/)]
+
+3. **QASC: A Dataset for Question Answering via Sentence Composition** AAAI (2020)
+
+   *Tushar Khot, Peter Clark, Michal Guerquin, Peter Jansen, Ashish Sabharwal* [[pdf](https://arxiv.org/pdf/1910.11473.pdf)] [[project](https://github.com/allenai/qasc)]
+
+4. **Learning to Explain: Datasets and Models for Identifying Valid Reasoning Chains in Multihop Question-Answering** AAAI (2020)
+
+   *Harsh Jhamtani, Peter Clark* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.emnlp-main.10.pdf)] [[project](https://allenai.org/data/eqasc)]
 
 
 
