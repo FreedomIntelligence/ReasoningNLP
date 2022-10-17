@@ -22,23 +22,24 @@ Paper list on reasoning in NLP.
 
    *Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, Ed Chi* [[pdf](https://arxiv.org/pdf/2205.10625.pdf)]
 
-6. **Large Language Models are Zero-Shot Reasoners** arXiv (2022)
+6. **On the Paradox of Learning to Reason from Data** arXiv (2022)
+
+    *Honghua Zhang, Liunian Harold Li, Tao Meng, Kai-Wei Chang, Guy Van den Broeck* [[pdf](https://arxiv.org/pdf/2205.11502.pdf)] [[project](https://github.com/joshuacnf/paradox-learning2reason)]
+
+7. **Large Language Models are Zero-Shot Reasoners** arXiv (2022)
 
    *Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa* [[pdf](https://arxiv.org/pdf/2205.11916.pdf)] [[project](https://github.com/kojima-takeshi188/zero_shot_cot)]
 
-7. **Faithful Reasoning Using Large Language Models** arXiv (2022)
+8. **Language models show human-like content effects on reasoning** arXiv (2022)
+
+   *Ishita Dasgupta, Andrew K. Lampinen, Stephanie C. Y. Chan, Antonia Creswell, Dharshan Kumaran, James L. McClelland, Felix Hill* [[pdf](https://arxiv.org/pdf/2207.07051.pdf)]
+
+9. **Faithful Reasoning Using Large Language Models** arXiv (2022)
 
    *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
 
 
-### Effect & Concern
-1. **Language models show human-like content effects on reasoning** arXiv (2022)
 
-   *Ishita Dasgupta, Andrew K. Lampinen, Stephanie C. Y. Chan, Antonia Creswell, Dharshan Kumaran, James L. McClelland, Felix Hill* [[pdf](https://arxiv.org/pdf/2207.07051.pdf)]
-
-2. **On the Paradox of Learning to Reason from Data** arXiv (2022)
-
-    *Honghua Zhang, Liunian Harold Li, Tao Meng, Kai-Wei Chang, Guy Van den Broeck* [[pdf](https://arxiv.org/pdf/2205.11502.pdf)] [[project](https://github.com/joshuacnf/paradox-learning2reason)]
 
 
 
