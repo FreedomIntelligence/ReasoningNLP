@@ -10,40 +10,53 @@ Paper list on reasoning in NLP.
 
    *Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou* [[pdf](https://arxiv.org/pdf/2201.11903.pdf)] [[project](https://github.com/jasonwei20/chain-of-thought-prompting)]
 
-3. **STaR: Bootstrapping Reasoning With Reasoning** arXiv (2022)
+3. **Self-Consistency Improves Chain of Thought Reasoning in Language Models** arXiv (2022)
+
+   *Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, Denny Zhou* [[pdf](https://arxiv.org/pdf/2203.11171.pdf)]
+
+4. **STaR: Bootstrapping Reasoning With Reasoning** arXiv (2022)
 
    *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah D. Goodman* [[pdf](https://arxiv.org/pdf/2203.14465.pdf)]
 
-4. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
+5. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
 
    *Antonia Creswell, Murray Shanahan, Irina Higgins* [[pdf](https://arxiv.org/pdf/2205.09712.pdf)]
 
-5. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models** arXiv (2022)
+6. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models** arXiv (2022)
 
    *Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, Ed Chi* [[pdf](https://arxiv.org/pdf/2205.10625.pdf)]
 
-6. **On the Paradox of Learning to Reason from Data** arXiv (2022)
+7. **On the Paradox of Learning to Reason from Data** arXiv (2022)
 
     *Honghua Zhang, Liunian Harold Li, Tao Meng, Kai-Wei Chang, Guy Van den Broeck* [[pdf](https://arxiv.org/pdf/2205.11502.pdf)] [[project](https://github.com/joshuacnf/paradox-learning2reason)]
 
-7. **Large Language Models are Zero-Shot Reasoners** arXiv (2022)
+8. **Large Language Models are Zero-Shot Reasoners** arXiv (2022)
 
    *Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa* [[pdf](https://arxiv.org/pdf/2205.11916.pdf)] [[project](https://github.com/kojima-takeshi188/zero_shot_cot)]
 
-8. **Language models show human-like content effects on reasoning** arXiv (2022)
+9. **Language models show human-like content effects on reasoning** arXiv (2022)
 
    *Ishita Dasgupta, Andrew K. Lampinen, Stephanie C. Y. Chan, Antonia Creswell, Dharshan Kumaran, James L. McClelland, Felix Hill* [[pdf](https://arxiv.org/pdf/2207.07051.pdf)]
 
-9. **Faithful Reasoning Using Large Language Models** arXiv (2022)
+10. **Language Model Cascades** arXiv (2022)
 
-   *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
+      *David Dohan, Winnie Xu, Aitor Lewkowycz, Jacob Austin, David Bieber, Raphael Gontijo Lopes, Yuhuai Wu, Henryk Michalewski, Rif A. Saurous, Jascha Sohl-dickstein, Kevin Murphy, Charles Sutton* [[pdf](https://arxiv.org/pdf/2207.10342.pdf)]
 
+11. **Faithful Reasoning Using Large Language Models** arXiv (2022)
 
+      *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
 
+12. **Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought** arXiv (2022)
 
+      *Abulhair Saparov, He He* [[pdf](https://arxiv.org/pdf/2210.01240.pdf)]
 
+13. **ThinkSum: Probabilistic reasoning over sets using large language models** arXiv (2022)
 
+      *Batu Ozturkler, Nikolay Malkin, Zhen Wang, Nebojsa Jojic* [[pdf](https://arxiv.org/pdf/2210.01293.pdf)]
 
+14. **Measuring and Narrowing the Compositionality Gap in Language Models** arXiv (2022)
+
+      *Ofir Press, Muru Zhang, Sewon Min, Ludwig Schmidt, Noah A. Smith, Mike Lewis* [[pdf](https://arxiv.org/pdf/2210.03350.pdf)] [[project](https://github.com/ofirpress/self-ask)]
 
 
 
