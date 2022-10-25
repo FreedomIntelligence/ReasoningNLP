@@ -373,6 +373,7 @@ Mathematics is a game of symbols and symbol manipulation rules full of reasoning
 
 ## Multi-hop Question Answering
 
+### papers
 1. **Understanding Dataset Design Choices for Multi-hop Reasoning** NAACL (2019)
 
    *Jifan Chen, Greg Durrett* [[pdf](https://aclanthology.org/N19-1405.pdf)]
@@ -417,80 +418,74 @@ Mathematics is a game of symbols and symbol manipulation rules full of reasoning
 
       *Yichen Jiang, Mohit Bansal* [[pdf](http://aclanthology.lst.uni-saarland.de/D19-1455.pdf)] [[project](https://github.com/jiangycTarheel/NMN-MultiHopQA)]
 
-12. **Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering** ICLR (2020)
-
-      *Akari Asai, Kazuma Hashimoto, Hannaneh Hajishirzi, Richard Socher, Caiming Xiong* [[pdf](https://openreview.net/pdf?id=SJgVHkrYDH)] [[project](https://github.com/AkariAsai/learning_to_retrieve_reasoning_paths)]
-
-13. **SRLGRN: Semantic Role Labeling Graph Reasoning Network** EMNLP (2020)
-
-      *Chen Zheng, Parisa Kordjamshidi* [[pdf](https://aclanthology.org/2020.emnlp-main.714.pdf)]
-
-14. **Is Multihop QA in DiRe Condition? Measuring and Reducing Disconnected Reasoning** EMNLP (2020)
-
-      *Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, Ashish Sabharwal* [[pdf](https://aclanthology.org/2020.emnlp-main.712.pdf)] [[project](https://github.com/stonybrooknlp/dire)]
-
-15. **Answering Complex Open-Domain Questions with Multi-Hop Dense Retrieval** ICLR Poster (2021)
-
-      *Wenhan Xiong, Xiang Lorraine Li, Srini Iyer, Jingfei Du, Patrick S. H. Lewis, William Yang Wang, Yashar Mehdad, Scott Yih, Sebastian Riedel, Douwe Kiela, Barlas Oguz* [[pdf](https://openreview.net/pdf?id=EMHoBG0avc1)] [[project](https://github.com/facebookresearch/multihop_dense_retrieval)]
-
-16. **Multi-Step Reasoning Over Unstructured Text with Beam Dense Retrieval** NAACL (2021)
-
-      *Chen Zhao, Chenyan Xiong, Jordan L. Boyd-Graber, Hal Daumé III* [[pdf](https://aclanthology.org/2021.naacl-main.368.pdf)] [[project](https://github.com/henryzhao5852/BeamDR)]
-
-17. **Robustifying Multi-hop QA through Pseudo-Evidentiality Training** ACL (2021)
-
-      *Kyungjae Lee, Seung-won Hwang, Sang-eun Han, Dohyeon Lee* [[pdf](https://aclanthology.org/2021.acl-long.476.pdf)]
-
-18. **Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension** EMNLP (2021)
-
-      *Naoya Inoue, Harsh Trivedi, Steven Sinha, Niranjan Balasubramanian, Kentaro Inui* [[pdf](https://aclanthology.org/2021.emnlp-main.490.pdf)] [[project](https://github.com/StonyBrookNLP/suqa)]
-
-19. **Generative Context Pair Selection for Multi-hop Question Answering** EMNLP (2021)
-
-      *Dheeru Dua, Cícero Nogueira dos Santos, Patrick Ng, Ben Athiwaratkun, Bing Xiang, Matt Gardner, Sameer Singh* [[pdf](https://aclanthology.org/2021.emnlp-main.561.pdf)] [[project](https://github.com/dDua/JointQA)]
-
-20. **Breadth First Reasoning Graph for Multi-hop Question Answering** NAACL (2021)
-
-      *Yongjie Huang, Meng Yang* [[pdf](https://aclanthology.org/2021.naacl-main.464.pdf)]
-
-21. **Baleen: Robust Multi-Hop Reasoning at Scale via Condensed Retrieval** NIPS (2021)
-
-      *Omar Khattab, Christopher Potts, Matei A. Zaharia* [[pdf](https://papers.nips.cc/paper/2021/file/e8b1cbd05f6e6a358a81dee52493dd06-Paper.pdf)] [[project](https://github.com/stanford-futuredata/Baleen)]
-
-22. **Modeling Multi-hop Question Answering as Single Sequence Prediction** ACL (2022)
-
-      *Semih Yavuz, Kazuma Hashimoto, Yingbo Zhou, Nitish Shirish Keskar, Caiming Xiong* [[pdf](https://aclanthology.org/2022.acl-long.69.pdf)]
-
-23. **Deep Inductive Logic Reasoning for Multi-Hop Reading Comprehension** ACL (2022)
-
-      *Wenya Wang, Sinno Jialin Pan* [[pdf](https://aclanthology.org/2022.acl-long.343.pdf)]
-
-24. **Differentiable Reasoning over a Virtual Knowledge Base** ICLR (2020)
+12. **Differentiable Reasoning over a Virtual Knowledge Base** ICLR (2020)
 
       *Bhuwan Dhingra, Manzil Zaheer, Vidhisha Balachandran, Graham Neubig, Ruslan Salakhutdinov, William W. Cohen* [[pdf](https://openreview.net/pdf?id=SJxstlHFPH)] [[project](http://www.cs.cmu.edu/~bdhingra/pages/drkit.html)]
 
-25. **Reasoning Over Virtual Knowledge Bases With Open Predicate Relations** ICML (2021)
+13. **Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering** ICLR (2020)
 
-      *Haitian Sun, Patrick Verga, Bhuwan Dhingra, Ruslan Salakhutdinov, William W. Cohen* [[pdf](https://proceedings.mlr.press/v139/sun21e/sun21e.pdf)]
+      *Akari Asai, Kazuma Hashimoto, Hannaneh Hajishirzi, Richard Socher, Caiming Xiong* [[pdf](https://openreview.net/pdf?id=SJgVHkrYDH)] [[project](https://github.com/AkariAsai/learning_to_retrieve_reasoning_paths)]
 
-26. **Low-Resource Generation of Multi-hop Reasoning Questions** ACL (2020)
+14. **Transformer-XH: Multi-Evidence Reasoning with eXtra Hop Attention** ICLR Poster (2020)
+
+      *Chen Zhao, Chenyan Xiong, Corby Rosset, Xia Song, Paul N. Bennett, Saurabh Tiwary* [[pdf](https://openreview.net/pdf?id=r1eIiCNYwS)] [[project](https://aka.ms/transformer-xh)]
+
+15. **Low-Resource Generation of Multi-hop Reasoning Questions** ACL (2020)
 
       *Jianxing Yu, Wei Liu, Shuang Qiu, Qinliang Su, Kai Wang, Xiaojun Quan, Jian Yin* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.acl-main.601.pdf)]
 
+16. **SRLGRN: Semantic Role Labeling Graph Reasoning Network** EMNLP (2020)
 
-### Question Generation
+      *Chen Zheng, Parisa Kordjamshidi* [[pdf](https://aclanthology.org/2020.emnlp-main.714.pdf)]
 
-1. **Low-Resource Generation of Multi-hop Reasoning Questions** ACL (2020)
+17. **Is Multihop QA in DiRe Condition? Measuring and Reducing Disconnected Reasoning** EMNLP (2020)
 
-   *Jianxing Yu, Wei Liu, Shuang Qiu, Qinliang Su, Kai Wang, Xiaojun Quan, Jian Yin* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.acl-main.601.pdf)]
+      *Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, Ashish Sabharwal* [[pdf](https://aclanthology.org/2020.emnlp-main.712.pdf)] [[project](https://github.com/stonybrooknlp/dire)]
 
-2. **Unsupervised Multi-hop Question Answering by Question Generation** NAACL (2021)
+18. **Answering Complex Open-Domain Questions with Multi-Hop Dense Retrieval** ICLR Poster (2021)
 
-   *Liangming Pan, Wenhu Chen, Wenhan Xiong, Min-Yen Kan, William Yang Wang* [[pdf](https://aclanthology.org/2021.naacl-main.469.pdf)] [[project](https://github.com/teacherpeterpan/Unsupervised-Multi-hop-QA)]
+      *Wenhan Xiong, Xiang Lorraine Li, Srini Iyer, Jingfei Du, Patrick S. H. Lewis, William Yang Wang, Yashar Mehdad, Scott Yih, Sebastian Riedel, Douwe Kiela, Barlas Oguz* [[pdf](https://openreview.net/pdf?id=EMHoBG0avc1)] [[project](https://github.com/facebookresearch/multihop_dense_retrieval)]
 
-3. **CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation** ACL (2022)
+19. **Multi-Step Reasoning Over Unstructured Text with Beam Dense Retrieval** NAACL (2021)
 
-   *Zichu Fei, Qi Zhang, Tao Gui, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang* [[pdf](https://aclanthology.org/2022.acl-long.475.pdf)] [[project](https://github.com/sion-zcfei/CQG)]
+      *Chen Zhao, Chenyan Xiong, Jordan L. Boyd-Graber, Hal Daumé III* [[pdf](https://aclanthology.org/2021.naacl-main.368.pdf)] [[project](https://github.com/henryzhao5852/BeamDR)]
+
+20. **Unsupervised Multi-hop Question Answering by Question Generation** NAACL (2021)
+
+      *Liangming Pan, Wenhu Chen, Wenhan Xiong, Min-Yen Kan, William Yang Wang* [[pdf](https://aclanthology.org/2021.naacl-main.469.pdf)] [[project](https://github.com/teacherpeterpan/Unsupervised-Multi-hop-QA)]
+
+21. **Robustifying Multi-hop QA through Pseudo-Evidentiality Training** ACL (2021)
+
+      *Kyungjae Lee, Seung-won Hwang, Sang-eun Han, Dohyeon Lee* [[pdf](https://aclanthology.org/2021.acl-long.476.pdf)]
+
+22. **Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension** EMNLP (2021)
+
+      *Naoya Inoue, Harsh Trivedi, Steven Sinha, Niranjan Balasubramanian, Kentaro Inui* [[pdf](https://aclanthology.org/2021.emnlp-main.490.pdf)] [[project](https://github.com/StonyBrookNLP/suqa)]
+
+23. **Generative Context Pair Selection for Multi-hop Question Answering** EMNLP (2021)
+
+      *Dheeru Dua, Cícero Nogueira dos Santos, Patrick Ng, Ben Athiwaratkun, Bing Xiang, Matt Gardner, Sameer Singh* [[pdf](https://aclanthology.org/2021.emnlp-main.561.pdf)] [[project](https://github.com/dDua/JointQA)]
+
+24. **Breadth First Reasoning Graph for Multi-hop Question Answering** NAACL (2021)
+
+      *Yongjie Huang, Meng Yang* [[pdf](https://aclanthology.org/2021.naacl-main.464.pdf)]
+
+25. **Baleen: Robust Multi-Hop Reasoning at Scale via Condensed Retrieval** NIPS (2021)
+
+      *Omar Khattab, Christopher Potts, Matei A. Zaharia* [[pdf](https://papers.nips.cc/paper/2021/file/e8b1cbd05f6e6a358a81dee52493dd06-Paper.pdf)] [[project](https://github.com/stanford-futuredata/Baleen)]
+
+26. **Deep Inductive Logic Reasoning for Multi-Hop Reading Comprehension** ACL (2022)
+
+      *Wenya Wang, Sinno Jialin Pan* [[pdf](https://aclanthology.org/2022.acl-long.343.pdf)]
+
+27. **CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation** ACL (2022)
+
+      *Zichu Fei, Qi Zhang, Tao Gui, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang* [[pdf](https://aclanthology.org/2022.acl-long.475.pdf)] [[project](https://github.com/sion-zcfei/CQG)]
+
+28. **Modeling Multi-hop Question Answering as Single Sequence Prediction** ACL (2022)
+
+      *Semih Yavuz, Kazuma Hashimoto, Yingbo Zhou, Nitish Shirish Keskar, Caiming Xiong* [[pdf](https://aclanthology.org/2022.acl-long.69.pdf)]
+
 
 
 ### Benchmarks & Datasets
@@ -501,7 +496,7 @@ Mathematics is a game of symbols and symbol manipulation rules full of reasoning
 
 2. **HOTPOTQA: A Dataset for Diverse, Explainable Multi-hop Question Answering** EMNLP (2018)
 
-   *Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, Christopher D. Manning* [[pdf](https://arxiv.org/pdf/1809.09600.pdf)] [[project](https://hotpotqa.github.io/)]
+   *Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, Christopher D. Manning* [[pdf](https://aclanthology.org/D18-1259.pdf)] [[project](https://hotpotqa.github.io/)]
 
 3. **QASC: A Dataset for Question Answering via Sentence Composition** AAAI (2020)
 
@@ -548,11 +543,7 @@ Mathematics is a game of symbols and symbol manipulation rules full of reasoning
 
    *Kelvin Jiang, Ronak Pradeep, Jimmy Lin* [[pdf](https://aclanthology.org/2021.acl-short.51.pdf)]
 
-5. **Transformer-XH: Multi-Evidence Reasoning with eXtra Hop Attention** ICLR Poster (2020)
-
-   *Chen Zhao, Chenyan Xiong, Corby Rosset, Xia Song, Paul N. Bennett, Saurabh Tiwary* [[pdf](https://openreview.net/pdf?id=r1eIiCNYwS)] [[project](https://aka.ms/transformer-xh)]
-
-6. **Automatic Fake News Detection: Are Models Learning to Reason?** ACL (2021)
+5. **Automatic Fake News Detection: Are Models Learning to Reason?** ACL (2021)
 
    *Casper Hansen, Christian Hansen, Lucas Chaves Lima* [[pdf](https://aclanthology.org/2021.acl-short.12.pdf)] [[project](https://github.com/casperhansen/fake-news-reasoning)]
 
