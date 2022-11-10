@@ -1,7 +1,7 @@
 # ReasoningNLP
 Paper list on reasoning in NLP.
 
-## Languague Model Reasoning
+## Large Languague Model
 1. **Show Your Work: Scratchpads for Intermediate Computation with Language Models** arXiv (2021)
 
    *Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David Luan, Charles Sutton, Augustus Odena* [[pdf](https://arxiv.org/pdf/2112.00114.pdf)]
@@ -56,7 +56,78 @@ Paper list on reasoning in NLP.
 
 
 
+## Logical Reasoning
 
+### Deductive Reasoning
+
+#### Benchmarks & Datasets
+1. **Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks** ICLR Poster (2016)
+
+   *Jason Weston, Antoine Bordes, Sumit Chopra, Tomás Mikolov* [[pdf](https://arxiv.org/pdf/1502.05698.pdf)] [[project](http://fb.ai/babi)]
+
+2. **Transformers as Soft Reasoners over Language** IJCAI (2020)
+
+   *Peter Clark, Oyvind Tafjord, Kyle Richardson* [[pdf](https://www.ijcai.org/proceedings/2020/0537.pdf)] [[project](https://allenai.org/data/ruletaker)]
+
+3. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
+
+   *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
+
+4. **Critical Thinking for Language Models** IWCS (2021)
+
+   *Gregor Betz, Christian Voigt, Kyle Richardson* [[pdf](https://aclanthology.org/2021.iwcs-1.7.pdf)] [[project](https://github.com/debatelab/aacorpus)]
+
+5. **ROBUSTLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** arXiv (2022)
+
+   *Soumya Sanyal, Zeyi Liao, Xiang Ren* [[pdf](https://arxiv.org/pdf/2205.12598.pdf)] [[project](https://github.com/INK-USC/RobustLR)]
+
+6. **FOLIO: Natural Language Reasoning with First-Order Logic** arXiv (2022)
+
+   *Simeng Han, Hailey Schoelkopf, Yilun Zhao, Zhenting Qi, Martin Riddell, Luke Benson, Lucy Sun, Ekaterina Zubova, Yujie Qiao, Matthew Burtell, David Peng, Jonathan Fan, Yixin Liu, Brian Wong, Malcolm Sailor, Ansong Ni, Linyong Nan, Jungo Kasai, Tao Yu, Rui Zhang, Shafiq R. Joty, Alexander R. Fabbri, Wojciech Kryscinski, Xi Victoria Lin, Caiming Xiong, Dragomir Radev* [[pdf](https://arxiv.org/pdf/2209.00840.pdf)] [[project](https://github.com/Yale-LILY/FOLIO)]
+
+
+
+#### papers
+
+1. **PRover: Proof Generation for Interpretable Reasoning over Rules** EMNLP (2020)
+
+   *Swarnadeep Saha, Sayan Ghosh, Shashank Srivastava, Mohit Bansal* [[pdf](https://aclanthology.org/2020.emnlp-main.9.pdf)] [[project](https://github.com/swarnaHub/PRover)]
+
+2. **multiPRover: Generating Multiple Proofs for Improved Interpretability in Rule Reasoning** NAACL (2021)
+
+   *Swarnadeep Saha, Prateek Yadav, Mohit Bansal* [[pdf](https://aclanthology.org/2021.naacl-main.287.pdf)] [[project](https://github.com/swarnaHub/multiPRover)]
+
+3. **Explainable Multi-hop Verbal Reasoning Through Internal Monologue** NAACL (2021)
+
+   *Zhengzhong Liang, Steven Bethard, Mihai Surdeanu* [[pdf](https://aclanthology.org/2021.naacl-main.97.pdf)] [[project](https://github.com/clulab/releases/tree/master/naacl2021-evr)]
+
+4. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
+
+   *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
+
+5. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
+
+   *Soumya Sanyal, Harman Singh, Xiang Ren* [[pdf](https://aclanthology.org/2022.acl-long.77.pdf)] [[project](https://github.com/INK-USC/FaiRR)]
+
+6. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
+
+   *Hanhao Qu, Yu Cao, Jun Gao, Liang Ding, Ruifeng Xu* [[pdf](https://aclanthology.org/2022.naacl-main.216.pdf)] [[project](https://github.com/find-knowledge/IBR)]
+
+7. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
+
+   *Antonia Creswell, Murray Shanahan, Irina Higgins* [[pdf](https://arxiv.org/pdf/2205.09712.pdf)]
+
+8. **Language models show human-like content effects on reasoning** arXiv (2022)
+
+   *Ishita Dasgupta, Andrew K. Lampinen, Stephanie C. Y. Chan, Antonia Creswell, Dharshan Kumaran, James L. McClelland, Felix Hill* [[pdf](https://arxiv.org/pdf/2207.07051.pdf)]
+
+9. **Faithful Reasoning Using Large Language Models** arXiv (2022)
+
+   *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
+
+10. **Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought** arXiv (2022)
+
+      *Abulhair Saparov, He He* [[pdf](https://arxiv.org/pdf/2210.01240.pdf)] [[project](https://github.com/asaparov/prontoqa)]
 
 
 
@@ -182,44 +253,6 @@ Paper list on reasoning in NLP.
 
 
 
-
-
-
-
-
-
-
-
-## Language Rulebase Reasoning
-Facts and rules are explicitly provided as natural language texts, and Transformers are used as soft reasoners over them. 
-
-1. **Transformers as Soft Reasoners over Language** IJCAI (2020)
-
-   *Peter Clark, Oyvind Tafjord, Kyle Richardson* [[pdf](https://www.ijcai.org/proceedings/2020/0537.pdf)] [[project](https://allenai.org/data/ruletaker)]
-
-2. **PRover: Proof Generation for Interpretable Reasoning over Rules** EMNLP (2020)
-
-   *Swarnadeep Saha, Sayan Ghosh, Shashank Srivastava, Mohit Bansal* [[pdf](https://aclanthology.org/2020.emnlp-main.9.pdf)] [[project](https://github.com/swarnaHub/PRover)]
-
-3. **multiPRover: Generating Multiple Proofs for Improved Interpretability in Rule Reasoning** NAACL (2021)
-
-   *Swarnadeep Saha, Prateek Yadav, Mohit Bansal* [[pdf](https://aclanthology.org/2021.naacl-main.287.pdf)] [[project](https://github.com/swarnaHub/multiPRover)]
-
-4. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
-
-   *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
-
-5. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
-
-   *Hanhao Qu, Yu Cao, Jun Gao, Liang Ding, Ruifeng Xu* [[pdf](https://aclanthology.org/2022.naacl-main.216.pdf)] [[project](https://github.com/find-knowledge/IBR)]
-
-6. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
-
-   *Soumya Sanyal, Harman Singh, Xiang Ren* [[pdf](https://aclanthology.org/2022.acl-long.77.pdf)] [[project](https://github.com/INK-USC/FaiRR)]
-
-7. **Explainable Multi-hop Verbal Reasoning Through Internal Monologue** NAACL (2021)
-
-   *Zhengzhong Liang, Steven Bethard, Mihai Surdeanu* [[pdf](https://aclanthology.org/2021.naacl-main.97.pdf)] [[project](https://github.com/clulab/releases/tree/master/naacl2021-evr)]
 
 
 
@@ -498,15 +531,23 @@ Mathematics is a game of symbols and symbol manipulation rules full of reasoning
 
    *Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, Christopher D. Manning* [[pdf](https://aclanthology.org/D18-1259.pdf)] [[project](https://hotpotqa.github.io/)]
 
-3. **QASC: A Dataset for Question Answering via Sentence Composition** AAAI (2020)
+3. **R4C: A Benchmark for Evaluating RC Systems to Get the Right Answer for the Right Reason** ACL (2020)
+
+   *Naoya Inoue, Pontus Stenetorp, Kentaro Inui* [[pdf](https://aclanthology.org/2020.acl-main.602.pdf)] [[project](https://naoya-i.github.io/r4c/)]
+
+4. **QASC: A Dataset for Question Answering via Sentence Composition** AAAI (2020)
 
    *Tushar Khot, Peter Clark, Michal Guerquin, Peter Jansen, Ashish Sabharwal* [[pdf](https://arxiv.org/pdf/1910.11473.pdf)] [[project](https://github.com/allenai/qasc)]
 
-4. **Learning to Explain: Datasets and Models for Identifying Valid Reasoning Chains in Multihop Question-Answering** AAAI (2020)
+5. **Learning to Explain: Datasets and Models for Identifying Valid Reasoning Chains in Multihop Question-Answering** AAAI (2020)
 
    *Harsh Jhamtani, Peter Clark* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.emnlp-main.10.pdf)] [[project](https://allenai.org/data/eqasc)]
 
-5. **Answering Open-Domain Questions of Varying Reasoning Steps from Text** EMNLP (2021)
+6. **Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps** COLING (2020)
+
+   *Xanh Ho, Anh-Khoa Duong Nguyen, Saku Sugawara, Akiko Aizawa* [[pdf](https://aclanthology.org/2020.coling-main.580.pdf)] [[project](https://github.com/Alab-NII/2wikimultihop)]
+
+7. **Answering Open-Domain Questions of Varying Reasoning Steps from Text** EMNLP (2021)
 
    *Peng Qi, Haejun Lee, Tg Sido, Christopher D. Manning* [[pdf](https://aclanthology.org/2021.emnlp-main.292.pdf)] [[project](https://beerqa.github.io/)]
 
