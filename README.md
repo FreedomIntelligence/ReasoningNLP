@@ -56,6 +56,18 @@ Paper list on reasoning in NLP.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Logical Reasoning
 
 ### Deductive Reasoning
@@ -84,7 +96,6 @@ Paper list on reasoning in NLP.
 6. **FOLIO: Natural Language Reasoning with First-Order Logic** arXiv (2022)
 
    *Simeng Han, Hailey Schoelkopf, Yilun Zhao, Zhenting Qi, Martin Riddell, Luke Benson, Lucy Sun, Ekaterina Zubova, Yujie Qiao, Matthew Burtell, David Peng, Jonathan Fan, Yixin Liu, Brian Wong, Malcolm Sailor, Ansong Ni, Linyong Nan, Jungo Kasai, Tao Yu, Rui Zhang, Shafiq R. Joty, Alexander R. Fabbri, Wojciech Kryscinski, Xi Victoria Lin, Caiming Xiong, Dragomir Radev* [[pdf](https://arxiv.org/pdf/2209.00840.pdf)] [[project](https://github.com/Yale-LILY/FOLIO)]
-
 
 
 #### papers
@@ -128,6 +139,14 @@ Paper list on reasoning in NLP.
 10. **Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought** arXiv (2022)
 
       *Abulhair Saparov, He He* [[pdf](https://arxiv.org/pdf/2210.01240.pdf)] [[project](https://github.com/asaparov/prontoqa)]
+
+
+
+
+
+
+
+
 
 
 
@@ -248,6 +267,51 @@ Paper list on reasoning in NLP.
 6. **Probabilistic Box Embeddings for Uncertain Knowledge Graph Reasoning** NAACL (2021)
 
    *Xuelu Chen, Michael Boratko, Muhao Chen, Shib Sankar Dasgupta, Xiang Lorraine Li, Andrew McCallum* [[pdf](https://aclanthology.org/2021.naacl-main.68.pdf)] [[project](https://github.com/stasl0217/beurre)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Natural Language Inference
+
+### Datasets & Benchmarks
+
+1. **A large annotated corpus for learning natural language inference** EMNLP (2015)
+
+   *Samuel R. Bowman, Gabor Angeli, Christopher Potts, Christopher D. Manning* [[pdf](https://aclanthology.org/D15-1075.pdf)] [[project](nlp.stanford.edu/projects/snli/)]
+
+2. **e-SNLI: Natural Language Inference with Natural Language Explanations** NIPS (2018)
+
+   *Oana-Maria Camburu, Tim Rocktäschel, Thomas Lukasiewicz, Phil Blunsom* [[pdf](https://proceedings.neurips.cc/paper/2018/file/4c7a167bb329bd92580a99ce422d6fa6-Paper.pdf)] [[project](https://github.com/OanaMariaCamburu/e-SNLI)]
+
+3. **A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference** NAACL (2018)
+
+   *Adina Williams, Nikita Nangia, Samuel R. Bowman* [[pdf](https://aclanthology.org/N18-1101.pdf)] [[project](https://cims.nyu.edu/~sbowman/multinli/)]
+
+4. **Breaking NLI Systems with Sentences that Require Simple Lexical Inferences** ACL (2018)
+
+   *Max Glockner, Vered Shwartz, Yoav Goldberg* [[pdf](https://aclanthology.org/P18-2103.pdf)] [[project](https://github.com/BIU-NLP/Breaking_NLI)]
+
+5. **HELP: A Dataset for Identifying Shortcomings of Neural Models in Monotonicity Reasoning** NAACL (2019)
+
+   *Hitomi Yanaka, Koji Mineshima, Daisuke Bekki, Kentaro Inui, Satoshi Sekine, Lasha Abzianidze, Johan Bos* [[pdf](https://aclanthology.org/S19-1027.pdf)] [[project](https://github.com/verypluming/HELP)]
+
+6. **Can neural networks understand monotonicity reasoning?** ACL workshop (2019)
+
+   *Hitomi Yanaka, Koji Mineshima, Daisuke Bekki, Kentaro Inui, Satoshi Sekine, Lasha Abzianidze, Johan Bos* [[pdf](https://aclanthology.org/W19-4804.pdf)] [[project](https://github.com/verypluming/MED)]
+
+
 
 
 
