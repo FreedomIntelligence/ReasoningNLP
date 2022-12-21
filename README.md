@@ -1,5 +1,17 @@
 # ReasoningNLP
-Paper list on reasoning in NLP.
+Paper list on reasoning in NLP. Here we mainly collect papers about datasets and methods using PLMs. (The collection is under the progress)
+
+## Table Of Contents
+
+- [Large Languague Model](#large-languague-model)
+- [Logical Reasoning](#logical-reasoning)
+- [Natural Language Inference](#natural-language-inference)
+- [Commonsense Reasoning](#commonsense-reasoning)
+- [Multi-hop Question Answering](#multi-hop-question-answering)
+- [Fact Verification](#fact-verification)
+- [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
+- [Mathematical Reasoning](#mathematical-reasoning)
+
 
 ## Large Languague Model
 1. **Show Your Work: Scratchpads for Intermediate Computation with Language Models** arXiv (2021)
