@@ -338,6 +338,147 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
    *Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James F. Allen* [[pdf](https://aclanthology.org/N16-1098.pdf)] [[project](https://www.cs.rochester.edu/nlp/rocstories/)]
 
+3. **Ordinal Common-sense Inference** TACL (2017)
+
+   *Sheng Zhang, Rachel Rudinger, Kevin Duh, Benjamin Van Durme* [[pdf](https://aclanthology.org/Q17-1027.pdf)] [[project](https://github.com/sheng-z/JOCI)]
+
+4. **Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge** arXiv (2018)
+
+   *Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord* [[pdf](https://arxiv.org/pdf/1803.05457.pdf)] [[project](http://data.allenai.org/arc)]
+
+5. **The Argument Reasoning Comprehension Task: Identification and Reconstruction of Implicit Warrants** NAACL (2018)
+
+   *Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, Benno Stein* [[pdf](https://aclanthology.org/N18-1175.pdf)] [[project](https://github.com/UKPLab/argumentreasoning-comprehension-task/)]
+
+6. **SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference** EMNLP (2018)
+
+   *Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi* [[pdf](http://aclanthology.lst.uni-saarland.de/D18-1009.pdf)] [[project](https://rowanzellers.com/swag/)]
+
+7. **Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering** EMNLP (2018)
+
+   *Todor Mihaylov, Peter Clark, Tushar Khot, Ashish Sabharwal* [[pdf](http://aclanthology.lst.uni-saarland.de/D18-1260.pdf)] [[project](http://data.allenai.org/OpenBookQA)]
+
+8. **CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge** NAACL (2019)
+
+   *Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant* [[pdf](https://aclanthology.org/N19-1421.pdf)] [[project](www.tau-nlp.org/commonsenseqa)]
+
+9. **Probing Neural Network Comprehension of Natural Language Arguments** ACL (2019)
+
+   *Timothy Niven, Hung-Yu Kao* [[pdf](https://aclanthology.org/P19-1459.pdf)] [[project](https://github.com/IKMLab/arct2)]
+
+10. **HellaSwag: Can a Machine Really Finish Your Sentence?** ACL (2019)
+
+      *Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi* [[pdf](http://aclanthology.lst.uni-saarland.de/P19-1472.pdf)] [[project](https://rowanzellers.com/hellaswag/)]
+
+11. **Explain Yourself! Leveraging Language Models for Commonsense Reasoning** ACL (2019)
+
+      *Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, Richard Socher* [[pdf](https://aclanthology.org/P19-1487.pdf)] [[project](https://github.com/salesforce/cos-e)]
+
+12. **Does it Make Sense? And Why? A Pilot Study for Sense Making and Explanation** ACL (2019)
+
+      *Cunxiang Wang, Shuailong Liang, Yue Zhang, Xiaonan Li, Tian Gao* [[pdf](https://aclanthology.org/P19-1393.pdf)] [[project](https://github.com/wangcunxiang/Sen-Making-and-Explanation)]
+
+13. **WIQA: A dataset for "What if..." reasoning over procedural text** EMNLP (2019)
+
+      *Niket Tandon, Bhavana Dalvi, Keisuke Sakaguchi, Peter Clark, Antoine Bosselut* [[pdf](https://aclanthology.org/D19-1629.pdf)] [[project](http://data.allenai.org/wiqa/)]
+
+14. **SOCIAL IQA: Commonsense Reasoning about Social Interactions** EMNLP (2019)
+
+      *Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, Yejin Choi* [[pdf](https://aclanthology.org/D19-1454.pdf)] [[project](https://tinyurl.com/socialiqa)]
+
+15. **Cosmos QA: Machine Reading Comprehension with Contextual Commonsense Reasoning** EMNLP (2019)
+
+      *Lifu Huang, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi* [[pdf](http://aclanthology.lst.uni-saarland.de/D19-1243.pdf)] [[project](https://wilburone.github.io/cosmos)]
+
+16. **Counterfactual Story Reasoning and Generation** EMNLP (2019)
+
+      *Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark, Yejin Choi* [[pdf](http://aclanthology.lst.uni-saarland.de/D19-1509.pdf)] [[project](https://github.com/qkaren/Counterfactual-StoryRW)]
+
+17. **PIQA: Reasoning about Physical Commonsense in Natural Language** AAAI (2020)
+
+      *Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi* [[pdf](https://yonatanbisk.com/piqa/)] [[project](http://abductivecommonsense.xyz/)]
+
+18. **QASC: A Dataset for Question Answering via Sentence Composition** AAAI (2020)
+
+      *Tushar Khot, Peter Clark, Michal Guerquin, Peter Jansen, Ashish Sabharwal* [[pdf](https://arxiv.org/pdf/1910.11473.pdf)] [[project](https://github.com/allenai/qasc)]
+
+19. **Abductive Commonsense Reasoning** ICLR Poster (2020)
+
+      *Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Wen-tau Yih, Yejin Choi* [[pdf](https://openreview.net/pdf?id=Byg1v1HKDB)] [[project](http://abductivecommonsense.xyz/)]
+
+20. **Social Bias Frames: Reasoning about Social and Power Implications of Language** ACL (2020)
+
+      *Maarten Sap, Saadia Gabriel, Lianhui Qin, Dan Jurafsky, Noah A. Smith, Yejin Choi* [[pdf](https://aclanthology.org/2020.acl-main.486.pdf)] [[project](http://tinyurl.com/social-bias-frames)]
+
+21. **Learning to Explain: Datasets and Models for Identifying Valid Reasoning Chains in Multihop Question-Answering** EMNLP (2020)
+
+      *Harsh Jhamtani, Peter Clark* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.emnlp-main.10.pdf)] [[project](https://allenai.org/data/eqasc)]
+
+22. **Reasoning about Goals, Steps, and Temporal Ordering with WikiHow** EMNLP (2020)
+
+      *Li Zhang, Qing Lyu, Chris Callison-Burch* [[pdf](https://aclanthology.org/2020.emnlp-main.374v2.pdf)] [[project](https://github.com/zharry29/wikihow-goal-step)]
+
+23. **ProtoQA: A Question Answering Dataset for Prototypical Common-Sense Reasoning** EMNLP (2020)
+
+      *Michael Boratko, Xiang Li, Tim O'Gorman, Rajarshi Das, Dan Le, Andrew McCallum* [[pdf](https://aclanthology.org/2020.emnlp-main.85.pdf)] [[project](https://github.com/iesl/protoqa-data)]
+
+24. **XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning** EMNLP (2020)
+
+      *Edoardo Maria Ponti, Goran Glavas, Olga Majewska, Qianchu Liu, Ivan Vulic, Anna Korhonen* [[pdf](https://aclanthology.org/2020.emnlp-main.185.pdf)] [[project](http://github.com/cambridgeltl/xcopa)]
+
+25. **CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning** EMNLP findings (2020)
+
+      *Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula, Yejin Choi, Xiang Ren* [[pdf](https://aclanthology.org/2020.findings-emnlp.165.pdf)] [[project](http://inklab.usc.edu/CommonGen/)]
+
+26. **Conversational Neuro-Symbolic Commonsense Reasoning** AAAI (2021)
+
+      *Forough Arabshahi, Jennifer Lee, Mikayla Gawarecki, Kathryn Mazaitis, Amos Azaria, Tom M. Mitchell* [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/16623/16430)] [[project](https://github.com/ForoughA/CORGI)]
+
+27. **Temporal Reasoning on Implicit Events from Distant Supervision** NAACL (2021)
+
+      *Ben Zhou, Kyle Richardson, Qiang Ning, Tushar Khot, Ashish Sabharwal, Dan Roth* [[pdf](https://aclanthology.org/2021.naacl-main.107.pdf)] [[project](https://leaderboard.allenai.org/tracie)]
+
+28. **Explanations for CommonsenseQA: New Dataset and Models** ACL (2021)
+
+      *Shourya Aggarwal, Divyanshu Mandowara, Vishwajeet Agrawal, Dinesh Khandelwal, Parag Singla, Dinesh Garg* [[pdf](https://aclanthology.org/2021.acl-long.238.pdf)] [[project](https://github.com/dair-iitd/ECQA-Dataset)]
+
+29. **Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning** ACL (2021)
+
+      *Bill Yuchen Lin, Seyeon Lee, Xiaoyang Qiao, Xiang Ren* [[pdf](https://aclanthology.org/2021.acl-long.102.pdf)] [[project](https://inklab.usc.edu/XCSR/)]
+
+30. **TellMeWhy: A Dataset for Answering Why-Questions in Narratives** ACL findings (2021)
+
+      *Yash Kumar Lal, Nathanael Chambers, Raymond J. Mooney, Niranjan Balasubramanian* [[pdf](https://aclanthology.org/2021.findings-acl.53v2.pdf)] [[project](http://lunr.cs.stonybrook.edu/tellmewhy)]
+
+31. **Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences** EMNLP (2021)
+
+      *Denis Emelin, Ronan Le Bras, Jena D. Hwang, Maxwell Forbes, Yejin Choi* [[pdf](https://aclanthology.org/2021.emnlp-main.54.pdf)] [[project](https://github.com/demelin/moral_stories)]
+
+32. **Wino-X: Multilingual Winograd Schemas for Commonsense Reasoning and Coreference Resolution** EMNLP (2021)
+
+      *Denis Emelin, Rico Sennrich* [[pdf](https://aclanthology.org/2021.emnlp-main.670.pdf)] [[project](https://github.com/demelin/Wino-X)]
+
+33. **Differentiable Open-Ended Commonsense Reasoning** EMNLP (2021)
+
+      *Bill Yuchen Lin, Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Xiang Ren, William W. Cohen* [[pdf](https://aclanthology.org/2021.naacl-main.366.pdf)] [[project](https://open-csr.github.io/)]
+
+34. **CREAK: A Dataset for Commonsense Reasoning over Entity Knowledge** NIPS (2021)
+
+      *Yasumasa Onoe, Michael J. Q. Zhang, Eunsol Choi, Greg Durrett* [[pdf](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/5737c6ec2e0716f3d8a7a5c4e0de0d9a-Paper-round2.pdf)] [[project](https://www.cs.utexas.edu/~yasumasa/creak)]
+
+35. **e-CARE: a New Dataset for Exploring Explainable Causal Reasoning** ACL (2022)
+
+      *Li Du, Xiao Ding, Kai Xiong, Ting Liu, Bing Qin* [[pdf](https://aclanthology.org/2022.acl-long.33.pdf)] [[project](https://github.com/Waste-Wood/e-CARE/)]
+
+36. **Misinfo Reaction Frames: Reasoning about Readers’ Reactions to News Headlines** ACL (2022)
+
+      *Saadia Gabriel, Skyler Hallinan, Maarten Sap, Pemi Nguyen, Franziska Roesner, Eunsol Choi, Yejin Choi* [[pdf](https://aclanthology.org/2022.acl-long.222.pdf)] [[project](https://github.com/skgabriel/mrf-modeling)]
+
+37. **WikiWhy: Answering and Explaining Cause-and-Effect Questions** arXiv (2022)
+
+      *Matthew Ho, Aditya Sharma, Justin Chang, Michael Saxon, Sharon Levy, Yujie Lu, William Yang Wang* [[pdf](https://arxiv.org/pdf/2210.12152.pdf)]
+
+
 
 
 
