@@ -553,9 +553,69 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
    *Joe Davison, Joshua Feldman, Alexander M. Rush* [[pdf](https://aclanthology.org/D19-1109.pdf)]
 
+5. **Modeling Event Background for If-Then Commonsense Reasoning Using Context-aware Variational Autoencoder** EMNLP (2019)
 
+   *Li Du, Xiao Ding, Ting Liu, Zhongyang Li* [[pdf](https://aclanthology.org/D19-1270.pdf)] [[project](https://github.com/sjcfr/CWVAE)]
 
+6. **How Reasonable are Common-Sense Reasoning Tasks: A Case-Study on the Winograd Schema Challenge and SWAG** EMNLP (2019)
 
+   *Paul Trichelair, Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung* [[pdf](https://aclanthology.org/D19-1335.pdf)] [[project](https://github.com/ptrichel/How-Reasonable-are-Common-Sense-Reasoning-Tasks)]
+
+7. **Guided Generation of Cause and Effect** IJCAI (2020)
+
+   *Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme* [[pdf](https://www.ijcai.org/proceedings/2020/0502.pdf)] [[project](http://nlp.jhu.edu/causalbank)]
+
+8. **Contrastive Self-Supervised Learning for Commonsense Reasoning** ACL (2020)
+
+   *Tassilo Klein, Moin Nabi* [[pdf](https://aclanthology.org/2020.acl-main.671.pdf)] [[project](https://github.com/SAP-samples/acl2020-commonsense/)]
+
+9. **Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning** ACL (2020)
+
+   *Alexandre Tamborrino, Nicola Pellicanò, Baptiste Pannier, Pascal Voitot, Louise Naudin* [[pdf](https://aclanthology.org/2020.acl-main.357.pdf)]
+
+10. **Evidence-Aware Inferential Text Generation with Vector Quantised Variational AutoEncoder** ACL (2020)
+
+      *Daya Guo, Duyu Tang, Nan Duan, Jian Yin, Daxin Jiang, Ming Zhou* [[pdf](https://aclanthology.org/2020.acl-main.544.pdf)] [[project](https://github.com/microsoft/EA-VQ-VAE)]
+
+11. **Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering** EMNLP (2020)
+
+      *Yanlin Feng, Xinyue Chen, Bill Yuchen Lin, Peifeng Wang, Jun Yan, Xiang Ren* [[pdf](https://aclanthology.org/2020.emnlp-main.99.pdf)] [[project](https://github.com/INK-USC/MHGRN)]
+
+12. **Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning** EMNLP (2020)
+
+      *Lianhui Qin, Vered Shwartz, Peter West, Chandra Bhagavatula, Jena D. Hwang, Ronan Le Bras, Antoine Bosselut, Yejin Choi* [[pdf](https://aclanthology.org/2020.emnlp-main.58.pdf)] [[project](https://github.com/qkaren/unsup_gen_for_cms_reasoning)]
+
+13. **Self-Supervised Knowledge Triplet Learning for Zero-Shot Question Answering** EMNLP (2020)
+
+      *Pratyay Banerjee, Chitta Baral* [[pdf](https://aclanthology.org/2020.emnlp-main.11.pdf)]
+
+14. **Paragraph-level Commonsense Transformers with Recurrent Memory** AAAI (2021)
+
+      *Saadia Gabriel, Chandra Bhagavatula, Vered Shwartz, Ronan Le Bras, Maxwell Forbes, Yejin Choi* [[pdf](https://arxiv.org/pdf/2010.01486.pdf)] [[project](https://github.com/skgabriel/paracomet)]
+
+15. **Knowledge-driven Data Construction for Zero-shot Evaluation in Commonsense Question Answering** AAAI (2021)
+
+      *Kaixin Ma, Filip Ilievski, Jonathan Francis, Yonatan Bisk, Eric Nyberg, Alessandro Oltramari* [[pdf](https://arxiv.org/pdf/2011.03863.pdf)] [[project](https://github.com/Mayer123/HyKAS-CSKG)]
+
+16. **Doing Good or Doing Right? Exploring the Weakness of Commonsense Causal Reasoning Models** ACL (2021)
+
+      *Mingyue Han, Yinglin Wang* [[pdf](https://aclanthology.org/2021.acl-short.20.pdf)]
+
+17. **Learning Event Graph Knowledge for Abductive Reasoning** ACL (2021)
+
+      *Li Du, Xiao Ding, Ting Liu, Bing Qin* [[pdf](https://aclanthology.org/2021.acl-long.403.pdf)] [[project](https://github.com/sjcfr/ege-RoBERTa)]
+
+18. **ExCAR: Event Graph Knowledge Enhanced Explainable Causal Reasoning** ACL (2021)
+
+      *Li Du, Xiao Ding, Kai Xiong, Ting Liu, Bing Qin* [[pdf](https://aclanthology.org/2021.acl-long.183.pdf)] [[project](https://github.com/sjcfr/ExCAR)]
+
+19. **Differentiable Open-Ended Commonsense Reasoning** NAACL (2021)
+
+      *Bill Yuchen Lin, Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Xiang Ren, William W. Cohen* [[pdf](https://aclanthology.org/2021.naacl-main.366.pdf)] [[project](https://open-csr.github.io/)]
+
+20. **QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering** NAACL (2021)
+
+      *Michihiro Yasunaga, Hongyu Ren, Antoine Bosselut, Percy Liang, Jure Leskovec* [[pdf](https://aclanthology.org/2021.naacl-main.45.pdf)] [[project](https://github.com/michiyasunaga/qagnn)]
 
 
 
