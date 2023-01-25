@@ -617,6 +617,44 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
       *Michihiro Yasunaga, Hongyu Ren, Antoine Bosselut, Percy Liang, Jure Leskovec* [[pdf](https://aclanthology.org/2021.naacl-main.45.pdf)] [[project](https://github.com/michiyasunaga/qagnn)]
 
+21. **Towards Zero-shot Commonsense Reasoning with Self-supervised Refinement of Language Models** EMNLP (2021)
+
+      *Tassilo Klein, Moin Nabi* [[pdf](https://aclanthology.org/2021.emnlp-main.688.pdf)] [[project](https://github.com/SAP-samples/emnlp2021-contrastive-refinement)]
+
+22. **Exploring Strategies for Generalizable Commonsense Reasoning with Pre-trained Models** EMNLP (2021)
+
+      *Kaixin Ma, Filip Ilievski, Jonathan Francis, Satoru Ozaki, Eric Nyberg, Alessandro Oltramari* [[pdf](https://aclanthology.org/2021.emnlp-main.445.pdf)] [[project](https://github.com/Mayer123/CS_Model_Adaptation)]
+
+23. **Shortcutted Commonsense: Data Spuriousness in Deep Learning of Commonsense Reasoning** EMNLP (2021)
+
+      *Ruben Branco, António Branco, João António Rodrigues, João Ricardo Silva* [[pdf](https://aclanthology.org/2021.emnlp-main.113.pdf)] [[project](https://github.com/nlx-group/Shortcutted-Commonsense-Reasoning)]
+
+24. **Improving Unsupervised Commonsense Reasoning Using Knowledge-Enabled Natural Language Inference** EMNLP findings (2021)
+
+      *Canming Huang, Weinan He, Yongmei Liu* [[pdf](https://aclanthology.org/2021.findings-emnlp.420.pdf)] [[project](https://github.com/sysuhcm/NLI-KB)]
+
+25. **Uncovering Implicit Gender Bias in Narratives through Commonsense Inference** EMNLP findings (2021)
+
+      *Tenghao Huang, Faeze Brahman, Vered Shwartz, Snigdha Chaturvedi* [[pdf](https://aclanthology.org/2021.findings-emnlp.326.pdf)] [[project](https://github.com/tenghaohuang/Uncover_implicit_bia)]
+
+26. **SalKG: Learning From Knowledge Graph Explanations for Commonsense Reasoning** NIPS (2021)
+
+      *Aaron Chan, Jiashu Xu, Boyuan Long, Soumya Sanyal, Tanishq Gupta, Xiang Ren* [[pdf](https://proceedings.neurips.cc/paper/2021/file/9752d873fa71c19dc602bf2a0696f9b5-Paper.pdf)] [[project](https://github.com/INK-USC/SalKG)]
+
+27. **GreaseLM: Graph REASoning Enhanced Language Models** ICLR Spotlight (2022)
+
+      *Xikun Zhang, Antoine Bosselut, Michihiro Yasunaga, Hongyu Ren, Percy Liang, Christopher D. Manning, Jure Leskovec* [[pdf](https://openreview.net/pdf?id=41e9o6cQPj)] [[project](https://github.com/snap-stanford/GreaseLM)]
+
+
+
+
+
+
+
+
+
+
+
 
 
 
