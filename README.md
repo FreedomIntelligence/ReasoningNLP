@@ -1,19 +1,26 @@
 # ReasoningNLP
 Paper list on reasoning in NLP. Here we mainly collect papers about datasets and methods using PLMs. (The collection is under the progress)
 
-## Table Of Contents
+- [Methodology](#1)
+   - [Large Languague Model](#1.1)
+- [NLP Topics](#2)
+   - [Classical Logical Reasoning](#2.1)
+      - [Datasets & Benchmarks](#2.1.1)
+      - [Related Works](#2.1.2)
+   - [Natural Language Inference](#natural-language-inference)
+   - [Commonsense Reasoning](#commonsense-reasoning)
+   - [Multi-hop Question Answering](#multi-hop-question-answering)
+   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
+   - [Mathematical Reasoning](#mathematical-reasoning)
 
-- [Large Languague Model](#large-languague-model)
-- [Logical Reasoning](#logical-reasoning)
-- [Natural Language Inference](#natural-language-inference)
-- [Commonsense Reasoning](#commonsense-reasoning)
-- [Multi-hop Question Answering](#multi-hop-question-answering)
-- [Fact Verification](#fact-verification)
-- [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
-- [Mathematical Reasoning](#mathematical-reasoning)
 
 
-## Large Languague Model
+<h2 id="1">Methodology</h2>
+
+
+<h3 id="1.1">Large Languague Model</h3>
+
+
 1. **Show Your Work: Scratchpads for Intermediate Computation with Language Models** arXiv (2021)
 
    *Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David Luan, Charles Sutton, Augustus Odena* [[pdf](https://arxiv.org/pdf/2112.00114.pdf)]
@@ -78,81 +85,176 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
 
 
+<h2 id="2">NLP Topics</h2>
+
+<h3 id="2.1">Classical Logical Reasoning</h3>
+
+<h4 id="2.1.1">Datasets & Benchmarks</h4>
+
+<table>
+  <tr>
+      <th colspan="2" align="center">Inference Type</th>
+      <th align="center">Dataset</th>
+      <th align="center">Size</th>
+      <th align="center">Task</th>
+      <th align="center">Link</th>
+      <th align="center">Remark</th>
+  </tr >
+  
+  <tr>
+      <td rowspan="6" colspan="2" align="center" valign="middle">Deductive Reasoning</td>
+      <td align="center">babI-15</td>
+      <td align="center">-</td>
+      <td align="center">extraction</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/1502.05698.pdf">paper</a> <br /> <a href="http://fb.ai/babi">project</a>  </td>
+      <td align="center">a very simple synthetic task</td>
+  </tr>
+  <tr>
+      <td align="center">RuleTaker</td>
+      <td align="center">500k</td>
+      <td align="center">classification</td>
+      <td align="center"> <a href="https://www.ijcai.org/proceedings/2020/0537.pdf">paper</a> <br /> <a href="https://allenai.org/data/ruletaker">project</a>  </td>
+      <td align="center">the first large-scale benchmark (synthetic)</td>
+  </tr>
+  <tr>
+      <td align="center">ProofWriter</td>
+      <td align="center">500k</td>
+      <td align="center">classification</td>
+      <td align="center"> <a href="https://aclanthology.org/2021.findings-acl.317.pdf">paper</a> <br /> <a href="https://allenai.org/data/proofwriter">project</a>  </td>
+      <td align="center">variant of RuleTaker, open-world assumption</td>
+  </tr>
+  <tr>
+      <td align="center">AAC</td>
+      <td align="center">710k</td>
+      <td align="center">generation</td>
+      <td align="center"> <a href="https://aclanthology.org/2021.iwcs-1.7.pdf">paper</a> <br /> <a href="https://github.com/debatelab/aacorpus">project</a>  </td>
+      <td align="center">synthetic, syllogistic arguments</td>
+  </tr>
+  <tr>
+      <td align="center">LogicInference</td>
+      <td align="center">200k</td>
+      <td align="center">generation</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2203.15099.pdf">paper</a> <br /> <a href="https://github.com/google-research/google-research/tree/master/logic_inference_dataset">project</a>  </td>
+      <td align="center">synthetic, three tasks</td>
+  </tr>
+  <tr>
+      <td align="center">FOLIO</td>
+      <td align="center">1.4k</td>
+      <td align="center">classification, generation</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2209.00840.pdf">paper</a> <br /> <a href="https://github.com/Yale-LILY/FOLIO">project</a>  </td>
+      <td align="center">expert-written, also annotate FOL</td>
+  </tr>
+
+  <tr>
+      <td rowspan="6" align="center" valign="middle">Defeasible Reasoning</td>
+      <td rowspan="2" align="center" valign="middle">Abductive Reasoning</td>
+      <td align="center">AbductionRules</td>
+      <td align="center">-</td>
+      <td align="center">generation</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2203.12186.pdf">paper</a> <br /> <a href="https://github.com/Strong-AI-Lab/AbductionRule">project</a>  </td>
+      <td align="center">variant of RuleTaker</td>
+  </tr>
+  <tr>
+      <td align="center">ART</td>
+      <td align="center">17.8k</td>
+      <td align="center">generation</td>
+      <td align="center"> <a href="https://openreview.net/pdf?id=Byg1v1HKDB">paper</a> <br /> <a href="http://abductivecommonsense.xyz/">project</a>  </td>
+      <td align="center">abductive commonsense reasoning, based on ROCStories</td>
+  </tr>
+
+  <tr>
+      <td rowspan="3" align="center" valign="middle">Inductive Reasoning</td>
+      <td align="center">bAbI-16</td>
+      <td align="center">-</td>
+      <td align="center">extraction</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/1502.05698.pdf">paper</a> <br /> <a href="http://fb.ai/babi">project</a>  </td>
+      <td align="center">a very simple synthetic task</td>
+  </tr>
+  <tr>
+      <td align="center">CLUTRR</td>
+      <td align="center">-</td>
+      <td align="center">extraction</td>
+      <td align="center"> <a href="https://aclanthology.org/D19-1458.pdf">paper</a> <br /> <a href="https://github.com/facebookresearch/clutrr">project</a>  </td>
+      <td align="center">induce kinship and apply to deduce (synthetic)</td>
+  </tr>
+  <tr>
+      <td align="center">DEER</td>
+      <td align="center">1.2k</td>
+      <td align="center">generation</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2212.10923.pdf">paper</a> <br /> project  </td>
+      <td align="center">induce natural language rule (human-authored) from natural language facts (Webs)</td>
+  </tr>
+
+  <tr>
+      <td align="center" valign="middle">Others</td>
+      <td align="center">defeasibleNLI</td>
+      <td align="center">43.8k</td>
+      <td align="center">classification, generation</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.findings-emnlp.418.pdf">paper</a> <br /> <a href="https://github.com/rudinger/defeasible-nli">project</a>  </td>
+      <td align="center">towards updation (e.g. whether a given statement can strengthen the conclusion), based on SNLI, ATOMIC, and Social Chemistry</td>
+  </tr>
+</table>
 
 
-## Logical Reasoning
 
-### Benchmarks & Datasets
-1. **Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks** ICLR Poster (2016)
+   
 
-   *Jason Weston, Antoine Bordes, Sumit Chopra, Tomás Mikolov* [[pdf](https://arxiv.org/pdf/1502.05698.pdf)] [[project](http://fb.ai/babi)]
 
-2. **Transformers as Soft Reasoners over Language** IJCAI (2020)
+
+
+<h4 id="2.1.2">Related Works</h4>
+
+1. **Transformers as Soft Reasoners over Language** IJCAI (2020)
 
    *Peter Clark, Oyvind Tafjord, Kyle Richardson* [[pdf](https://www.ijcai.org/proceedings/2020/0537.pdf)] [[project](https://allenai.org/data/ruletaker)]
 
-3. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
+2. **PRover: Proof Generation for Interpretable Reasoning over Rules** EMNLP (2020)
 
-   *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
+   *Swarnadeep Saha, Sayan Ghosh, Shashank Srivastava, Mohit Bansal* [[pdf](https://aclanthology.org/2020.emnlp-main.9.pdf)] [[project](https://github.com/swarnaHub/PRover)]
+
+3. **multiPRover: Generating Multiple Proofs for Improved Interpretability in Rule Reasoning** NAACL (2021)
+
+   *Swarnadeep Saha, Prateek Yadav, Mohit Bansal* [[pdf](https://aclanthology.org/2021.naacl-main.287.pdf)] [[project](https://github.com/swarnaHub/multiPRover)]
 
 4. **Critical Thinking for Language Models** IWCS (2021)
 
    *Gregor Betz, Christian Voigt, Kyle Richardson* [[pdf](https://aclanthology.org/2021.iwcs-1.7.pdf)] [[project](https://github.com/debatelab/aacorpus)]
 
-5. **ROBUSTLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** arXiv (2022)
-
-   *Soumya Sanyal, Zeyi Liao, Xiang Ren* [[pdf](https://arxiv.org/pdf/2205.12598.pdf)] [[project](https://github.com/INK-USC/RobustLR)]
-
-6. **FOLIO: Natural Language Reasoning with First-Order Logic** arXiv (2022)
-
-   *Simeng Han, Hailey Schoelkopf, Yilun Zhao, Zhenting Qi, Martin Riddell, Luke Benson, Lucy Sun, Ekaterina Zubova, Yujie Qiao, Matthew Burtell, David Peng, Jonathan Fan, Yixin Liu, Brian Wong, Malcolm Sailor, Ansong Ni, Linyong Nan, Jungo Kasai, Tao Yu, Rui Zhang, Shafiq R. Joty, Alexander R. Fabbri, Wojciech Kryscinski, Xi Victoria Lin, Caiming Xiong, Dragomir Radev* [[pdf](https://arxiv.org/pdf/2209.00840.pdf)] [[project](https://github.com/Yale-LILY/FOLIO)]
-
-
-### Papers
-
-1. **PRover: Proof Generation for Interpretable Reasoning over Rules** EMNLP (2020)
-
-   *Swarnadeep Saha, Sayan Ghosh, Shashank Srivastava, Mohit Bansal* [[pdf](https://aclanthology.org/2020.emnlp-main.9.pdf)] [[project](https://github.com/swarnaHub/PRover)]
-
-2. **multiPRover: Generating Multiple Proofs for Improved Interpretability in Rule Reasoning** NAACL (2021)
-
-   *Swarnadeep Saha, Prateek Yadav, Mohit Bansal* [[pdf](https://aclanthology.org/2021.naacl-main.287.pdf)] [[project](https://github.com/swarnaHub/multiPRover)]
-
-3. **Explainable Multi-hop Verbal Reasoning Through Internal Monologue** NAACL (2021)
+5. **Explainable Multi-hop Verbal Reasoning Through Internal Monologue** NAACL (2021)
 
    *Zhengzhong Liang, Steven Bethard, Mihai Surdeanu* [[pdf](https://aclanthology.org/2021.naacl-main.97.pdf)] [[project](https://github.com/clulab/releases/tree/master/naacl2021-evr)]
 
-4. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
+6. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** ACL findings (2021)
 
    *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
 
-5. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
+7. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
 
    *Soumya Sanyal, Harman Singh, Xiang Ren* [[pdf](https://aclanthology.org/2022.acl-long.77.pdf)] [[project](https://github.com/INK-USC/FaiRR)]
 
-6. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
+8. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
 
    *Hanhao Qu, Yu Cao, Jun Gao, Liang Ding, Ruifeng Xu* [[pdf](https://aclanthology.org/2022.naacl-main.216.pdf)] [[project](https://github.com/find-knowledge/IBR)]
 
-7. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
+9. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
 
    *Antonia Creswell, Murray Shanahan, Irina Higgins* [[pdf](https://arxiv.org/pdf/2205.09712.pdf)]
 
-8. **Language models show human-like content effects on reasoning** arXiv (2022)
+10. **Language models show human-like content effects on reasoning** arXiv (2022)
 
-   *Ishita Dasgupta, Andrew K. Lampinen, Stephanie C. Y. Chan, Antonia Creswell, Dharshan Kumaran, James L. McClelland, Felix Hill* [[pdf](https://arxiv.org/pdf/2207.07051.pdf)]
+      *Ishita Dasgupta, Andrew K. Lampinen, Stephanie C. Y. Chan, Antonia Creswell, Dharshan Kumaran, James L. McClelland, Felix Hill* [[pdf](https://arxiv.org/pdf/2207.07051.pdf)]
 
-9. **Faithful Reasoning Using Large Language Models** arXiv (2022)
+11. **Faithful Reasoning Using Large Language Models** arXiv (2022)
 
-   *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
+      *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
 
-10. **Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought** arXiv (2022)
+12. **Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought** arXiv (2022)
 
       *Abulhair Saparov, He He* [[pdf](https://arxiv.org/pdf/2210.01240.pdf)] [[project](https://github.com/asaparov/prontoqa)]
 
+13. **ROBUSTLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** arXiv (2022)
 
-
-
+      *Soumya Sanyal, Zeyi Liao, Xiang Ren* [[pdf](https://arxiv.org/pdf/2205.12598.pdf)] [[project](https://github.com/INK-USC/RobustLR)]
 
 
 
@@ -823,43 +925,6 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Fact Verification
-
-1. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification** ACL (2019)
-
-   *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li, Maosong Sun* [[pdf](https://aclanthology.org/P19-1085.pdf)] [[project](https://github.com/thunlp/GEAR)]
-
-2. **Topic-Aware Evidence Reasoning and Stance-Aware Aggregation for Fact Verification** ACL (2021)
-
-   *Jiasheng Si, Deyu Zhou, Tongzhe Li, Xingyu Shi, Yulan He* [[pdf](https://aclanthology.org/2021.acl-long.128.pdf)] [[project](https://github.com/jasenchn/TARSA)]
-
-3. **Reasoning Over Semantic-Level Graph for Fact Checking** ACL (2020)
-
-   *Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang, Jian Yin* [[pdf](https://aclanthology.org/2020.acl-main.549.pdf)]
-
-4. **Exploring Listwise Evidence Reasoning with T5 for Fact Verification** ACL (2021)
-
-   *Kelvin Jiang, Ronak Pradeep, Jimmy Lin* [[pdf](https://aclanthology.org/2021.acl-short.51.pdf)]
-
-5. **Automatic Fake News Detection: Are Models Learning to Reason?** ACL (2021)
-
-   *Casper Hansen, Christian Hansen, Lucas Chaves Lima* [[pdf](https://aclanthology.org/2021.acl-short.12.pdf)] [[project](https://github.com/casperhansen/fake-news-reasoning)]
 
 
 
