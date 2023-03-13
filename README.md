@@ -1265,6 +1265,9 @@ Papers on dataset artifacts:
 
    *Xuelu Chen, Michael Boratko, Muhao Chen, Shib Sankar Dasgupta, Xiang Lorraine Li, Andrew McCallum* [[pdf](https://aclanthology.org/2021.naacl-main.68.pdf)] [[project](https://github.com/stasl0217/beurre)]
 
+7. **Multimodal Analogical Reasoning over Knowledge Graphs** ICLR (2023)
+
+   *Ningyu Zhang, Lei Li, Xiang Chen, Xiaozhuan Liang, Shumin Deng, Huajun Chen* [[pdf](https://openreview.net/pdf?id=NRHajbzg8y0P)] [[project](https://github.com/zjunlp/MKG_Analogy)]
 
 
 
