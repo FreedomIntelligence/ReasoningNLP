@@ -7,7 +7,9 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
    - [Classical Logical Reasoning](#2.1)
       - [Datasets & Benchmarks](#2.1.1)
       - [Related Works](#2.1.2)
-   - [Natural Language Inference](#natural-language-inference)
+   - [Natural Language Inference](#2.2)
+      - [Datasets & Benchmarks](#2.2.1)
+      - [Related Works](#2.2.2)
    - [Commonsense Reasoning](#commonsense-reasoning)
    - [Multi-hop Question Answering](#multi-hop-question-answering)
    - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
@@ -102,7 +104,7 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
   </tr >
   
   <tr>
-      <td rowspan="6" colspan="2" align="center" valign="middle">Deductive Reasoning</td>
+      <th rowspan="6" colspan="2" align="center" valign="middle">Deductive Reasoning</th>
       <td align="center">babI-15</td>
       <td align="center">-</td>
       <td align="center">extraction</td>
@@ -146,8 +148,8 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
   </tr>
 
   <tr>
-      <td rowspan="6" align="center" valign="middle">Defeasible Reasoning</td>
-      <td rowspan="2" align="center" valign="middle">Abductive Reasoning</td>
+      <th rowspan="6" align="center" valign="middle">Defeasible Reasoning</th>
+      <th rowspan="2" align="center" valign="middle"><i>Abductive Reasoning</i></th>
       <td align="center">AbductionRules</td>
       <td align="center">-</td>
       <td align="center">generation</td>
@@ -155,15 +157,15 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
       <td align="center">variant of RuleTaker</td>
   </tr>
   <tr>
-      <td align="center">ART</td>
+      <td align="center">ART <br /> (&alpha;NLI, &alpha;NLG)</td>
       <td align="center">17.8k</td>
-      <td align="center">generation</td>
+      <td align="center">classification, generation</td>
       <td align="center"> <a href="https://openreview.net/pdf?id=Byg1v1HKDB">paper</a> <br /> <a href="http://abductivecommonsense.xyz/">project</a>  </td>
       <td align="center">abductive commonsense reasoning, based on ROCStories</td>
   </tr>
 
   <tr>
-      <td rowspan="3" align="center" valign="middle">Inductive Reasoning</td>
+      <th rowspan="3" align="center" valign="middle"><i>Inductive Reasoning</i></th>
       <td align="center">bAbI-16</td>
       <td align="center">-</td>
       <td align="center">extraction</td>
@@ -186,18 +188,21 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
   </tr>
 
   <tr>
-      <td align="center" valign="middle">Others</td>
+      <th align="center" valign="middle"><i>Others</i></th>
       <td align="center">defeasibleNLI</td>
       <td align="center">43.8k</td>
       <td align="center">classification, generation</td>
       <td align="center"> <a href="https://aclanthology.org/2020.findings-emnlp.418.pdf">paper</a> <br /> <a href="https://github.com/rudinger/defeasible-nli">project</a>  </td>
-      <td align="center">towards updation (e.g. whether a given statement can strengthen the conclusion), based on SNLI, ATOMIC, and Social Chemistry</td>
+      <td align="center">direction on evidence updation, based on SNLI, ATOMIC, and Social Chemistry</td>
   </tr>
 </table>
 
 
+Papers on dataset artifacts:
 
-   
+1. **On the Paradox of Learning to Reason from Data** arXiv (2022)
+
+   *Honghua Zhang, Liunian Harold Li, Tao Meng, Kai-Wei Chang, Guy Van den Broeck* [[pdf](https://arxiv.org/pdf/2205.11502.pdf)] [[project](https://github.com/joshuacnf/paradox-learning2reason)]
 
 
 
@@ -228,34 +233,45 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
    *Oyvind Tafjord, Bhavana Dalvi, Peter Clark* [[pdf](https://aclanthology.org/2021.findings-acl.317.pdf)] [[project](https://allenai.org/data/proofwriter)]
 
-7. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
+7. **Flexible Generation of Natural Language Deductions** EMNLP (2021)
+
+      *Kaj Bostrom, Xinyu Zhao, Swarat Chaudhuri, Greg Durrett* [[pdf](https://aclanthology.org/2021.emnlp-main.506.pdf)] [[project](https://github.com/alephic/ParaPattern)]
+
+8. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** ACL (2022)
 
    *Soumya Sanyal, Harman Singh, Xiang Ren* [[pdf](https://aclanthology.org/2022.acl-long.77.pdf)] [[project](https://github.com/INK-USC/FaiRR)]
 
-8. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
+9. **Interpretable Proof Generation via Iterative Backward Reasoning** NAACL (2022)
 
    *Hanhao Qu, Yu Cao, Jun Gao, Liang Ding, Ruifeng Xu* [[pdf](https://aclanthology.org/2022.naacl-main.216.pdf)] [[project](https://github.com/find-knowledge/IBR)]
 
-9. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
+10. **Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning** arXiv (2022)
 
-   *Antonia Creswell, Murray Shanahan, Irina Higgins* [[pdf](https://arxiv.org/pdf/2205.09712.pdf)]
+      *Antonia Creswell, Murray Shanahan, Irina Higgins* [[pdf](https://arxiv.org/pdf/2205.09712.pdf)]
 
-10. **Language models show human-like content effects on reasoning** arXiv (2022)
+11. **Generating Natural Language Proofs with Verifier-Guided Search** arXiv (2022)
 
-      *Ishita Dasgupta, Andrew K. Lampinen, Stephanie C. Y. Chan, Antonia Creswell, Dharshan Kumaran, James L. McClelland, Felix Hill* [[pdf](https://arxiv.org/pdf/2207.07051.pdf)]
+      *Kaiyu Yang, Jia Deng, Danqi Chen* [[pdf](https://arxiv.org/pdf/2205.12443.pdf)] [[project](https://github.com/princeton-nlp/NLProofS)]
 
-11. **Faithful Reasoning Using Large Language Models** arXiv (2022)
-
-      *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
-
-12. **Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought** arXiv (2022)
-
-      *Abulhair Saparov, He He* [[pdf](https://arxiv.org/pdf/2210.01240.pdf)] [[project](https://github.com/asaparov/prontoqa)]
-
-13. **ROBUSTLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** arXiv (2022)
+12. **ROBUSTLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** arXiv (2022)
 
       *Soumya Sanyal, Zeyi Liao, Xiang Ren* [[pdf](https://arxiv.org/pdf/2205.12598.pdf)] [[project](https://github.com/INK-USC/RobustLR)]
 
+13. **Language models show human-like content effects on reasoning** arXiv (2022)
+
+      *Ishita Dasgupta, Andrew K. Lampinen, Stephanie C. Y. Chan, Antonia Creswell, Dharshan Kumaran, James L. McClelland, Felix Hill* [[pdf](https://arxiv.org/pdf/2207.07051.pdf)]
+
+14. **Faithful Reasoning Using Large Language Models** arXiv (2022)
+
+      *Antonia Creswell, Murray Shanahan* [[pdf](https://arxiv.org/pdf/2208.14271.pdf)]
+
+15. **Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought** arXiv (2022)
+
+      *Abulhair Saparov, He He* [[pdf](https://arxiv.org/pdf/2210.01240.pdf)] [[project](https://github.com/asaparov/prontoqa)]
+
+16. **LAMBADA: Backward Chaining for Automated Reasoning in Natural Language** arXiv (2022)
+
+      *Seyed Mehran Kazemi, Najoung Kim, Deepti Bhatia, Xin Xu, Deepak Ramachandran* [[pdf](https://arxiv.org/pdf/2212.13894.pdf)]
 
 
 
@@ -272,135 +288,188 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
 
 
-## Natural Language Inference
 
-### Benchmarks & Datasets
 
-1. **A large annotated corpus for learning natural language inference** EMNLP (2015)
 
-   *Samuel R. Bowman, Gabor Angeli, Christopher Potts, Christopher D. Manning* [[pdf](https://aclanthology.org/D15-1075.pdf)] [[project](nlp.stanford.edu/projects/snli/)]
 
-2. **e-SNLI: Natural Language Inference with Natural Language Explanations** NIPS (2018)
+<h3 id="2.2">Natural Language Inference</h3>
 
-   *Oana-Maria Camburu, Tim Rocktäschel, Thomas Lukasiewicz, Phil Blunsom* [[pdf](https://proceedings.neurips.cc/paper/2018/file/4c7a167bb329bd92580a99ce422d6fa6-Paper.pdf)] [[project](https://github.com/OanaMariaCamburu/e-SNLI)]
+There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase, compound semantics understanding (CSU), and reasoning. Here we just consider the last one.
 
-3. **Natural Language Inference from Multiple Premises** IJCNLP (2017)
+<table>
+  <tr>
+      <th align="center"></th>
+      <th align="center">Premise</th>
+      <th align="center">Hypothesis</th>
+  </tr >
 
-   *Alice Lai, Yonatan Bisk, Julia Hockenmaier* [[pdf](https://aclanthology.org/I17-1011.pdf)] [[project](https://github.com/aylai/MultiPremiseEntailment)]
+  <tr>
+      <th align="center">Paraphrase</th>
+      <td align="center">Two doctors perform surgery on patient</td>
+      <td align="center">Doctors are performing surgery</td>
+  </tr>
+  <tr>
+      <th align="center">CSU</th>
+      <td align="center">Two women are embracing while holding to go packages</td>
+      <td align="center">Two women are holding packages <br /> (<i>Two women are embracing</i>)</td>
+  </tr>
+  <tr>
+      <th align="center">Reasoning</th>
+      <td align="center">A soccer game with multiple males playing <br /> (<i>Soccer is a sport</i>)</td>
+      <td align="center">Some men are playing a sport</td>
+  </tr>
+</table>
 
-4. **A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference** NAACL (2018)
 
-   *Adina Williams, Nikita Nangia, Samuel R. Bowman* [[pdf](https://aclanthology.org/N18-1101.pdf)] [[project](https://cims.nyu.edu/~sbowman/multinli/)]
+<h4 id="2.2.1">Datasets & Benchmarks</h4>
 
-5. **XNLI: Evaluating Cross-lingual Sentence Representations** EMNLP (2018)
+<table>
+  <tr>
+      <th align="center">Dataset</th>
+      <th align="center">Domain</th>
+      <th align="center">Size</th>
+      <th align="center">Link</th>
+      <th align="center">Remark</th>
+  </tr >
 
-   *Alexis Conneau, Ruty Rinott, Guillaume Lample, Adina Williams, Samuel R. Bowman, Holger Schwenk, Veselin Stoyanov* [[pdf](https://aclanthology.org/D18-1269.pdf)] [[project](https://github.com/facebookresearch/XNLI/)]
+  <tr>
+      <td align="center">SNLI</td>
+      <td align="center">generic</td>
+      <td align="center">570k</td>
+      <td align="center"> <a href="https://aclanthology.org/D15-1075.pdf">paper</a> <br /> <a href="nlp.stanford.edu/projects/snli/">project</a>  </td>
+      <td align="center">the first large-scale NLI dataset</td>
+  </tr>
+  <tr>
+      <td align="center">e-SNLI</td>
+      <td align="center">generic</td>
+      <td align="center">-</td>
+      <td align="center"> <a href="https://proceedings.neurips.cc/paper/2018/file/4c7a167bb329bd92580a99ce422d6fa6-Paper.pdf">paper</a> <br /> <a href="https://github.com/OanaMariaCamburu/e-SNLI">project</a>  </td>
+      <td align="center">annotate natural language explanations for SNLI</td>
+  </tr>
+  <tr>
+      <td align="center">MultiNLI</td>
+      <td align="center">generic</td>
+      <td align="center">433k</td>
+      <td align="center"> <a href="https://aclanthology.org/N18-1101.pdf">paper</a> <br /> <a href="https://cims.nyu.edu/~sbowman/multinli/">project</a>  </td>
+      <td align="center">cover more styles and topics than SNLI</td>
+  </tr>
+  <tr>
+      <td align="center">DebiasedNLI</td>
+      <td align="center">generic</td>
+      <td align="center">7.5k</td>
+      <td align="center"> <a href="https://aclanthology.org/2022.acl-long.190.pdf">paper</a> <br /> <a href="https://github.com/jimmycode/gen-debiased-nli">project</a>  </td>
+      <td align="center">(automatically) debiased versions of SNLI & MultiNLI</td>
+  </tr>
+  <tr>
+      <td align="center">XNLI</td>
+      <td align="center">generic</td>
+      <td align="center">7.5k</td>
+      <td align="center"> <a href="https://aclanthology.org/D18-1269.pdf">paper</a> <br /> <a href="https://github.com/facebookresearch/XNLI/">project</a>  </td>
+      <td align="center">cross-lingual, based on MultiNLI</td>
+  </tr>
+  <tr>
+      <td align="center">MPE</td>
+      <td align="center">generic</td>
+      <td align="center">10k</td>
+      <td align="center"> <a href="https://aclanthology.org/I17-1011.pdf">paper</a> <br /> <a href="https://github.com/aylai/MultiPremiseEntailment">project</a>  </td>
+      <td align="center">multiple premises</td>
+  </tr>
+  <tr>
+      <td align="center">SciTail</td>
+      <td align="center">science</td>
+      <td align="center">27k</td>
+      <td align="center"> <a href="http://ai2-website.s3.amazonaws.com/team/ashishs/scitail-aaai2018.pdf">paper</a> <br /> <a href="http://data.allenai.org/scitail">project</a>  </td>
+      <td align="center">the first NLI dataset with entirely existing text</td>
+  </tr>
+  <tr>
+      <td align="center">SciNLI</td>
+      <td align="center">science</td>
+      <td align="center">107k</td>
+      <td align="center"> <a href="https://aclanthology.org/2022.acl-long.511.pdf">paper</a> <br /> <a href="https://github.com/msadat3/SciNLI">project</a>  </td>
+      <td align="center">data from scholarly papers</td>
+  </tr>
+  <tr>
+      <td align="center">UNLI</td>
+      <td align="center">generic</td>
+      <td align="center">61k</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.acl-main.774.pdf">paper</a> <br /> <a href="http://nlp.jhu.edu/unli">project</a>  </td>
+      <td align="center">subjective probability assessment (regression rather than binary), based on SNLI</td>
+  </tr>
+  <tr>
+      <td align="center">ChaosNLI</td>
+      <td align="center">generic</td>
+      <td align="center">464k</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.emnlp-main.734.pdf">paper</a> <br /> <a href="https://github.com/easonnie/ChaosNLI">project</a>  </td>
+      <td align="center">human opinion distribution, based on SNLI, MultiNLI and &alpha;NLI</td>
+  </tr>
+</table>
 
-6. **SCITAIL: A Textual Entailment Dataset from Science Question Answering** AAAI (2018)
+<table>
+  <tr>
+      <th align="center">Dataset</th>
+      <th align="center">Language</th>
+      <th align="center">Link</th>
+      <th align="center">Remark</th>
+  </tr >
 
-   *Tushar Khot, Ashish Sabharwal, Peter Clark* [[pdf](http://ai2-website.s3.amazonaws.com/team/ashishs/scitail-aaai2018.pdf)] [[project](http://data.allenai.org/scitail)]
+  <tr>
+      <td align="center">NLI-TR</td>
+      <td align="center">Turkish</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.emnlp-main.662.pdf">paper</a> <br /> <a href="https://github.com/boun-tabi/NLI-TR">project</a>  </td>
+      <td align="center">translate SNLI and MultiNLI</td>
+  </tr>
+  <tr>
+      <td align="center">IndoNLI</td>
+      <td align="center">Indonesian</td>
+      <td align="center"> <a href="https://aclanthology.org/2021.emnlp-main.821.pdf">paper</a> <br /> <a href="https://github.com/ir-nlp-csui/indonli">project</a>  </td>
+      <td align="center">data collection protocol from MultiNLI</td>
+  </tr>
+</table>
 
-7. **Breaking NLI Systems with Sentences that Require Simple Lexical Inferences** ACL (2018)
+Some papers on dataset artifacts:
 
-   *Max Glockner, Vered Shwartz, Yoav Goldberg* [[pdf](https://aclanthology.org/P18-2103.pdf)] [[project](https://github.com/BIU-NLP/Breaking_NLI)]
+1. **Performance Impact Caused by Hidden Bias of Training Data for Recognizing Textual Entailment** LREC (2018)
 
-8. **HELP: A Dataset for Identifying Shortcomings of Neural Models in Monotonicity Reasoning** NAACL (2019)
+   *Masatoshi Tsuchiya* [[pdf](https://aclanthology.org/N19-1101.pdf)]
 
-   *Hitomi Yanaka, Koji Mineshima, Daisuke Bekki, Kentaro Inui, Satoshi Sekine, Lasha Abzianidze, Johan Bos* [[pdf](https://aclanthology.org/S19-1027.pdf)] [[project](https://github.com/verypluming/HELP)]
+2. **Annotation Artifacts in Natural Language Inference Data** NAACL (2018)
 
-9. **Can neural networks understand monotonicity reasoning?** ACL workshop (2019)
+   *Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel R. Bowman, Noah A. Smith* [[pdf](https://aclanthology.org/N18-2017.pdf)]
 
-   *Hitomi Yanaka, Koji Mineshima, Daisuke Bekki, Kentaro Inui, Satoshi Sekine, Lasha Abzianidze, Johan Bos* [[pdf](https://aclanthology.org/W19-4804.pdf)] [[project](https://github.com/verypluming/MED)]
+3. **Hypothesis Only Baselines in Natural Language Inference** SEM (2019)
 
-10. **Probing Natural Language Inference Models through Semantic Fragments** AAAI (2020)
+   *Adam Poliak, Jason Naradowsky, Aparajita Haldar, Rachel Rudinger, Benjamin Van Durme* [[pdf](https://aclanthology.org/S18-2023.pdf)]
 
-      *Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal* [[pdf](https://arxiv.org/pdf/1909.07521.pdf)] [[project](https://github.com/yakazimir/semantic_fragments)]
 
-11. **Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition** ACL (2020)
 
-      *Paloma Jeretic, Alex Warstadt, Suvrat Bhooshan, Adina Williams* [[pdf](https://aclanthology.org/2020.acl-main.768.pdf)] [[project](https://github.com/fairinternal/Imppres)]
+<h4 id="2.2.2">Related Works</h4>
 
-12. **ConjNLI: Natural Language Inference Over Conjunctive Sentences** EMNLP (2020)
 
-      *Swarnadeep Saha, Yixin Nie, Mohit Bansal* [[pdf](https://aclanthology.org/2020.emnlp-main.661.pdf)] [[project](https://github.com/swarnaHub/ConjNLI)]
-
-13. **What Can We Learn from Collective Human Opinions on Natural Language Inference Data?** EMNLP (2020)
-
-      *Yixin Nie, Xiang Zhou, Mohit Bansal* [[pdf](https://aclanthology.org/2020.emnlp-main.734.pdf)] [[project](https://github.com/easonnie/ChaosNLI)]
-
-14. **Figurative Language in Recognizing Textual Entailment** ACL findings (2021)
-
-      *Tuhin Chakrabarty, Debanjan Ghosh, Adam Poliak, Smaranda Muresan* [[pdf](https://aclanthology.org/2021.findings-acl.297.pdf)] [[project](https://github.com/tuhinjubcse/Figurative-NLI)]
-
-15. **DocNLI: A Large-scale Dataset for Document-level Natural Language Inference** ACL findings (2021)
-
-      *Wenpeng Yin, Dragomir R. Radev, Caiming Xiong* [[pdf](https://aclanthology.org/2021.findings-acl.435.pdf)] [[project](https://github.com/salesforce/DocNLI)]
-
-16. **ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts** EMNLP findings (2021)
-
-      *Yuta Koreeda, Christopher D. Manning* [[pdf](https://aclanthology.org/2021.findings-emnlp.164.pdf)] [[project](https://stanfordnlp.github.io/contract-nli/)]
-
-17. **SCINLI: A Corpus for Natural Language Inference on Scientific Text** ACL (2022)
-
-      *Mobashir Sadat, Cornelia Caragea* [[pdf](https://aclanthology.org/2022.acl-long.511.pdf)] [[project](https://github.com/msadat3/SciNLI)]
-
-### Papers
-
-1. **Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference** ACL (2019)
-
-   *Tom McCoy, Ellie Pavlick, Tal Linzen* [[pdf](https://aclanthology.org/P19-1334.pdf)] [[project](https://github.com/tommccoy1/hans)]
-
-2. **Evaluating BERT for natural language inference: a case study on the CommitmentBank** EMNLP (2019)
-
-   *Nanjiang Jiang, Marie-Catherine de Marneffe* [[pdf](https://aclanthology.org/D19-1630.pdf)]
-
-3. **NILE : Natural Language Inference with Faithful Natural Language Explanations** ACL (2020)
+1. **NILE : Natural Language Inference with Faithful Natural Language Explanations** ACL (2020)
 
    *Sawan Kumar, Partha P. Talukdar* [[pdf](https://aclanthology.org/2020.acl-main.771.pdf)] [[project](https://github.com/SawanKumar28/nile)]
 
-4. **Do Neural Models Learn Systematicity of Monotonicity Inference in Natural Language?** ACL (2020)
 
-   *Hitomi Yanaka, Koji Mineshima, Daisuke Bekki, Kentaro Inui* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.acl-main.543.pdf)] [[project](https://github.com/verypluming/systematicity)]
-
-5. **Uncertain Natural Language Inference** ACL (2020)
-
-   *Tongfei Chen, Zhengping Jiang, Adam Poliak, Keisuke Sakaguchi, Benjamin Van Durme* [[pdf](https://aclanthology.org/2020.acl-main.774.pdf)] [[project](http://nlp.jhu.edu/unli)]
-
-6. **Discriminatively-Tuned Generative Classifiers for Robust Natural Language Inference** EMNLP (2021)
-
-   *Xiaoan Ding, Tianyu Liu, Baobao Chang, Zhifang Sui, Kevin Gimpel* [[pdf](https://aclanthology.org/2020.emnlp-main.657.pdf)]
-
-7. **Language Models for Lexical Inference in Context** EACL (2021)
-
-   *Martin Schmitt, Hinrich Schütze* [[pdf](https://aclanthology.org/2021.eacl-main.108.pdf)] [[project](https://github.com/mnschmit/lm-lexical-inference)]
-
-8. **Identifying inherent disagreement in natural language inference** NAACL (2021)
+2. **Identifying inherent disagreement in natural language inference** NAACL (2021)
 
    *Xinliang Frederick Zhang, Marie-Catherine de Marneffe* [[pdf](https://aclanthology.org/2021.naacl-main.390.pdf)] [[project](https://github.com/FrederickXZhang/FgNLI)]
 
-9. **KACE: Generating Knowledge Aware Contrastive Explanations for Natural Language Inference** ACL (2021)
+
+3. **KACE: Generating Knowledge Aware Contrastive Explanations for Natural Language Inference** ACL (2021)
 
    *Qianglong Chen, Feng Ji, Xiangji Zeng, Feng-Lin Li, Ji Zhang, Haiqing Chen, Yin Zhang* [[pdf](https://aclanthology.org/2021.acl-long.196.pdf)] [[project](https://github.com/AI4NLP/KACE)]
 
-10. **Alignment Rationale for Natural Language Inference** ACL (2021)
+4. **Investigating Transfer Learning in Multilingual Pre-trained Language Models through Chinese Natural Language Inference** ACL findings (2021)
 
-      *Zhongtao Jiang, Yuanzhe Zhang, Zhao Yang, Jun Zhao, Kang Liu* [[pdf](https://aclanthology.org/2021.acl-long.417.pdf)] [[project](https://github.com/changmenseng/arec)]
+   *Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, Kyle Richardson* [[pdf](https://aclanthology.org/2021.findings-acl.331.pdf)] [[project](https://github.com/huhailinguist/ChineseNLIProbing)]
 
-11. **Investigating Transfer Learning in Multilingual Pre-trained Language Models through Chinese Natural Language Inference** ACL findings (2021)
+5. **Enhancing Cross-lingual Natural Language Inference by Prompt-learning from Cross-lingual Templates** ACL (2022)
 
-      *Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, Kyle Richardson* [[pdf](https://aclanthology.org/2021.findings-acl.331.pdf)] [[project](https://github.com/huhailinguist/ChineseNLIProbing)]
+   *Kunxun Qi, Hai Wan, Jianfeng Du, Haolan Chen* [[pdf](https://aclanthology.org/2022.acl-long.134.pdf)] [[project](https://github.com/qikunxun/PCT)]
 
-12. **Enhancing Cross-lingual Natural Language Inference by Prompt-learning from Cross-lingual Templates** ACL (2022)
+6. **Generating Intermediate Steps for NLI with Next-Step Supervision** arXiv (2022)
 
-      *Kunxun Qi, Hai Wan, Jianfeng Du, Haolan Chen* [[pdf](https://aclanthology.org/2022.acl-long.134.pdf)] [[project](https://github.com/qikunxun/PCT)]
-
-13. **Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets** ACL (2022)
-
-      *Yuxiang Wu, Matt Gardner, Pontus Stenetorp, Pradeep Dasigi* [[pdf](https://aclanthology.org/2022.acl-long.190.pdf)] [[project](https://github.com/jimmycode/gen-debiased-nli)]
-
-14. **Generating Intermediate Steps for NLI with Next-Step Supervision** arXiv (2022)
-
-      *Deepanway Ghosal, Somak Aditya, Monojit Choudhury* [[pdf](https://arxiv.org/pdf/2208.14641.pdf)]
+   *Deepanway Ghosal, Somak Aditya, Monojit Choudhury* [[pdf](https://arxiv.org/pdf/2208.14641.pdf)]
 
 
 
