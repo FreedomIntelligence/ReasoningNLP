@@ -1,5 +1,5 @@
 # ReasoningNLP
-Paper list on reasoning in NLP. Here we mainly collect papers about datasets and methods using PLMs. (The collection is under the progress)
+Paper list on reasoning in NLP. Here we mainly collect papers about datasets and methods using PLMs (under the progress). We will publish our comprehensive survey recently.
 
 - [Methodology](#1)
    - [Large Languague Model](#1.1)
@@ -10,8 +10,10 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
    - [Natural Language Inference](#2.2)
       - [Datasets & Benchmarks](#2.2.1)
       - [Related Works](#2.2.2)
+   - [Multi-hop Question Answering](#2.3)
+      - [Datasets & Benchmarks](#2.3.1)
+      - [Related Works](#2.3.2)
    - [Commonsense Reasoning](#commonsense-reasoning)
-   - [Multi-hop Question Answering](#multi-hop-question-answering)
    - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
    - [Mathematical Reasoning](#mathematical-reasoning)
 
@@ -109,7 +111,7 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
       <td align="center">-</td>
       <td align="center">extraction</td>
       <td align="center"> <a href="https://arxiv.org/pdf/1502.05698.pdf">paper</a> <br /> <a href="http://fb.ai/babi">project</a>  </td>
-      <td align="center">a very simple synthetic task</td>
+      <td align="center">basic deduction</td>
   </tr>
   <tr>
       <td align="center">RuleTaker</td>
@@ -123,7 +125,7 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
       <td align="center">500k</td>
       <td align="center">classification</td>
       <td align="center"> <a href="https://aclanthology.org/2021.findings-acl.317.pdf">paper</a> <br /> <a href="https://allenai.org/data/proofwriter">project</a>  </td>
-      <td align="center">variant of RuleTaker, open-world assumption</td>
+      <td align="center">variant of RuleTaker</td>
   </tr>
   <tr>
       <td align="center">AAC</td>
@@ -137,14 +139,14 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
       <td align="center">200k</td>
       <td align="center">generation</td>
       <td align="center"> <a href="https://arxiv.org/pdf/2203.15099.pdf">paper</a> <br /> <a href="https://github.com/google-research/google-research/tree/master/logic_inference_dataset">project</a>  </td>
-      <td align="center">synthetic, three tasks</td>
+      <td align="center">synthetic, more tasks</td>
   </tr>
   <tr>
       <td align="center">FOLIO</td>
       <td align="center">1.4k</td>
       <td align="center">classification, generation</td>
       <td align="center"> <a href="https://arxiv.org/pdf/2209.00840.pdf">paper</a> <br /> <a href="https://github.com/Yale-LILY/FOLIO">project</a>  </td>
-      <td align="center">expert-written, also annotate FOL</td>
+      <td align="center">expert-written, annotate with FOL</td>
   </tr>
 
   <tr>
@@ -161,7 +163,7 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
       <td align="center">17.8k</td>
       <td align="center">classification, generation</td>
       <td align="center"> <a href="https://openreview.net/pdf?id=Byg1v1HKDB">paper</a> <br /> <a href="http://abductivecommonsense.xyz/">project</a>  </td>
-      <td align="center">abductive commonsense reasoning, based on ROCStories</td>
+      <td align="center">commonsense, based on ROCStories</td>
   </tr>
 
   <tr>
@@ -170,7 +172,7 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
       <td align="center">-</td>
       <td align="center">extraction</td>
       <td align="center"> <a href="https://arxiv.org/pdf/1502.05698.pdf">paper</a> <br /> <a href="http://fb.ai/babi">project</a>  </td>
-      <td align="center">a very simple synthetic task</td>
+      <td align="center">basic induction</td>
   </tr>
   <tr>
       <td align="center">CLUTRR</td>
@@ -208,6 +210,7 @@ Papers on dataset artifacts:
 
 
 <h4 id="2.1.2">Related Works</h4>
+Deductive reasoning:
 
 1. **Transformers as Soft Reasoners over Language** IJCAI (2020)
 
@@ -274,10 +277,24 @@ Papers on dataset artifacts:
       *Seyed Mehran Kazemi, Najoung Kim, Deepti Bhatia, Xin Xu, Deepak Ramachandran* [[pdf](https://arxiv.org/pdf/2212.13894.pdf)]
 
 
+Defeasible reasoning:
+
+1. **Learning to Rationalize for Nonmonotonic Reasoning with Distant Supervision** AAAI (2020)
+
+   *Faeze Brahman, Vered Shwartz, Rachel Rudinger, Yejin Choi* [[pdf](https://arxiv.org/pdf/2012.08012.pdf)] [[project](https://github.com/fabrahman/RationaleGen)]
+
+2. **Could you give me a hint ? Generating inference graphs for defeasible reasoning** ACL findings (2021)
+
+   *Aman Madaan, Dheeraj Rajagopal, Niket Tandon, Yiming Yang, Eduard H. Hovy* [[pdf](https://aclanthology.org/2021.findings-acl.456.pdf)] [[project](https://tinyurl.com/defeasiblegraphs)]
 
 
+3. **Think about it! Improving defeasible reasoning by first modeling the question scenario** EMNLP (2021)
 
+   *Aman Madaan, Niket Tandon, Dheeraj Rajagopal, Peter Clark, Yiming Yang, Eduard H. Hovy* [[pdf](https://aclanthology.org/2021.emnlp-main.508.pdf)] [[project](https://github.com/madaan/thinkaboutit)]
 
+4. **Language Models as Inductive Reasoners** arXiv (2022)
+
+   *Zonglin Yang, Li Dong, Xinya Du, Hao Cheng, Erik Cambria, Xiaodong Liu, Jianfeng Gao, Furu Wei* [[pdf](https://arxiv.org/pdf/2212.10923.pdf)]
 
 
 
@@ -293,6 +310,8 @@ Papers on dataset artifacts:
 
 
 <h3 id="2.2">Natural Language Inference</h3>
+
+Task: given a premise-hypothesis pair, classify it into three classes: entailment, contradiction and neutral. 
 
 There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase, compound semantics understanding (CSU), and reasoning. Here we just consider the last one.
 
@@ -326,68 +345,91 @@ There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase
 <table>
   <tr>
       <th align="center">Dataset</th>
-      <th align="center">Domain</th>
       <th align="center">Size</th>
       <th align="center">Link</th>
       <th align="center">Remark</th>
   </tr >
+  <tr>
+      <th colspan=5 align="center">generic</th>
+  </tr >
 
   <tr>
       <td align="center">SNLI</td>
-      <td align="center">generic</td>
       <td align="center">570k</td>
       <td align="center"> <a href="https://aclanthology.org/D15-1075.pdf">paper</a> <br /> <a href="nlp.stanford.edu/projects/snli/">project</a>  </td>
-      <td align="center">the first large-scale NLI dataset</td>
+      <td align="center">the first large-scale NLI dataset <br/> one of the most typical</td>
   </tr>
   <tr>
       <td align="center">e-SNLI</td>
-      <td align="center">generic</td>
       <td align="center">-</td>
       <td align="center"> <a href="https://proceedings.neurips.cc/paper/2018/file/4c7a167bb329bd92580a99ce422d6fa6-Paper.pdf">paper</a> <br /> <a href="https://github.com/OanaMariaCamburu/e-SNLI">project</a>  </td>
       <td align="center">annotate natural language explanations for SNLI</td>
   </tr>
   <tr>
       <td align="center">MultiNLI</td>
-      <td align="center">generic</td>
       <td align="center">433k</td>
       <td align="center"> <a href="https://aclanthology.org/N18-1101.pdf">paper</a> <br /> <a href="https://cims.nyu.edu/~sbowman/multinli/">project</a>  </td>
-      <td align="center">cover more styles and topics than SNLI</td>
+      <td align="center">cover more styles and topics than SNLI <br/> one of the most typical</td>
   </tr>
   <tr>
       <td align="center">DebiasedNLI</td>
-      <td align="center">generic</td>
       <td align="center">7.5k</td>
       <td align="center"> <a href="https://aclanthology.org/2022.acl-long.190.pdf">paper</a> <br /> <a href="https://github.com/jimmycode/gen-debiased-nli">project</a>  </td>
-      <td align="center">(automatically) debiased versions of SNLI & MultiNLI</td>
+      <td align="center">debiased versions of SNLI & MultiNLI</td>
   </tr>
   <tr>
       <td align="center">XNLI</td>
-      <td align="center">generic</td>
       <td align="center">7.5k</td>
       <td align="center"> <a href="https://aclanthology.org/D18-1269.pdf">paper</a> <br /> <a href="https://github.com/facebookresearch/XNLI/">project</a>  </td>
       <td align="center">cross-lingual, based on MultiNLI</td>
   </tr>
   <tr>
       <td align="center">MPE</td>
-      <td align="center">generic</td>
       <td align="center">10k</td>
       <td align="center"> <a href="https://aclanthology.org/I17-1011.pdf">paper</a> <br /> <a href="https://github.com/aylai/MultiPremiseEntailment">project</a>  </td>
       <td align="center">multiple premises</td>
   </tr>
   <tr>
+      <td align="center">UNLI</td>
+      <td align="center">61k</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.acl-main.774.pdf">paper</a> <br /> <a href="http://nlp.jhu.edu/unli">project</a>  </td>
+      <td align="center">subjective probability assessment (regression rather than binary), based on SNLI</td>
+  </tr>
+  <tr>
+      <td align="center">ChaosNLI</td>
+      <td align="center">464k</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.emnlp-main.734.pdf">paper</a> <br /> <a href="https://github.com/easonnie/ChaosNLI">project</a>  </td>
+      <td align="center">human opinion distribution, based on SNLI, MultiNLI and &alpha;NLI</td>
+  </tr>
+
+  <tr>
+      <th colspan=5 align="center">science</th>
+  </tr >
+  <tr>
       <td align="center">SciTail</td>
-      <td align="center">science</td>
       <td align="center">27k</td>
       <td align="center"> <a href="http://ai2-website.s3.amazonaws.com/team/ashishs/scitail-aaai2018.pdf">paper</a> <br /> <a href="http://data.allenai.org/scitail">project</a>  </td>
       <td align="center">the first NLI dataset with entirely existing text</td>
   </tr>
   <tr>
       <td align="center">SciNLI</td>
-      <td align="center">science</td>
       <td align="center">107k</td>
       <td align="center"> <a href="https://aclanthology.org/2022.acl-long.511.pdf">paper</a> <br /> <a href="https://github.com/msadat3/SciNLI">project</a>  </td>
       <td align="center">data from scholarly papers</td>
   </tr>
+</table>
+
+Recently, some datasets are proposed to model different subjective opinions (on classifying into which class) of crowdworkers.
+
+<table>
+  <tr>
+      <th align="center">Dataset</th>
+      <th align="center">Domain</th>
+      <th align="center">Size</th>
+      <th align="center">Link</th>
+      <th align="center">Remark</th>
+  </tr >
+
   <tr>
       <td align="center">UNLI</td>
       <td align="center">generic</td>
@@ -404,6 +446,7 @@ There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase
   </tr>
 </table>
 
+Some datasets for other language:
 <table>
   <tr>
       <th align="center">Dataset</th>
@@ -426,7 +469,7 @@ There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase
   </tr>
 </table>
 
-Some papers on dataset artifacts:
+Papers on dataset artifacts:
 
 1. **Performance Impact Caused by Hidden Bias of Training Data for Recognizing Textual Entailment** LREC (2018)
 
@@ -470,6 +513,265 @@ Some papers on dataset artifacts:
 6. **Generating Intermediate Steps for NLI with Next-Step Supervision** arXiv (2022)
 
    *Deepanway Ghosal, Somak Aditya, Monojit Choudhury* [[pdf](https://arxiv.org/pdf/2208.14641.pdf)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="2.3">Multi-hop Question Answering</h3>
+
+This topic studies answering the complex questions that require to reason over evidences scattered in different contexts. The term ``hop'' here indicates the number of contexts required to reason. There are two settings on the required contexts: (1) all provided along with some distractors (i.e. distractor), (2) need to be retrieved (i.e. retrieval).
+
+
+<h4 id="2.3.1">Datasets & Benchmarks</h4>
+
+Some datasets annotate the ground supporting evidences (paragraph-level, sentence-level, or triple-level), decomposed sub-questions (and the corresponding evidences), or reasoning paths.
+
+<table>
+  <tr>
+      <th align="center">Dataset</th>
+      <th align="center">Size</th>
+      <th align="center">Knowledge Source</th>
+      <th align="center">Setting</th>
+      <th align="center">Answer Type</th>
+      <th align="center">Evidence</th>
+      <th align="center">Link</th>
+      <th align="center">Remark</th>
+  </tr >
+
+  <tr>
+      <th colspan=8 align="center">generic</th>
+  </tr >
+  <tr>
+      <td align="center">WikiHop</td>
+      <td align="center">51k</td>
+      <td align="center">Wikipedia</td>
+      <td align="center">distractor</td>
+      <td align="center">choice</td>
+      <td align="center">-</td>
+      <td align="center"> <a href="https://aclanthology.org/Q18-1021.pdf">paper</a> <br /> <a href="http://qangaroo.cs.ucl.ac.uk/">project</a>  </td>
+      <td align="center">one of the most typical</td>
+  </tr>
+  <tr>
+      <td align="center">HotpotQA</td>
+      <td align="center">112k</td>
+      <td align="center">Wikipedia</td>
+      <td align="center">distractor, retrieval</td>
+      <td align="center">span, yes/no</td>
+      <td align="center">sentence</td>
+      <td align="center"> <a href="https://aclanthology.org/D18-1259.pdf">paper</a> <br /> <a href="https://hotpotqa.github.io/">project</a>  </td>
+      <td align="center">the most popular one</td>
+  </tr>
+  <tr>
+      <td align="center">R4C</td>
+      <td align="center">4.6k</td>
+      <td align="center">-</td>
+      <td align="center">-</td>
+      <td align="center">-</td>
+      <td align="center">reasoning path</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.acl-main.602.pdf">paper</a> <br /> <a href="https://naoya-i.github.io/r4c/">project</a>  </td>
+      <td align="center">annotate reasoning paths for HotpotQA</td>
+  </tr>
+  <tr>
+      <td align="center">BeerQA</td>
+      <td align="center">530</td>
+      <td align="center">Wikipedia</td>
+      <td align="center">retrieval</td>
+      <td align="center">span, yes/no</td>
+      <td align="center">-</td>
+      <td align="center"> <a href="https://aclanthology.org/2021.emnlp-main.292.pdf">paper</a> <br /> <a href="https://beerqa.github.io/">project</a>  </td>
+      <td align="center">more hops</td>
+  </tr>
+  <tr>
+      <td align="center">2WikiMultiHopQA</td>
+      <td align="center">192k</td>
+      <td align="center">Wikipedia</td>
+      <td align="center">distractor</td>
+      <td align="center">span</td>
+      <td align="center">sentence <br /> triple</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.coling-main.580.pdf">paper</a> <br /> <a href="https://github.com/Alab-NII/2wikimultihop">project</a>  </td>
+      <td align="center">similar to WikiHop</td>
+  </tr>
+  <tr>
+      <td align="center">MuSiQue</td>
+      <td align="center">25k</td>
+      <td align="center">Wikipedia</td>
+      <td align="center">distractor</td>
+      <td align="center">span</td>
+      <td align="center">paragraph <br /> sub-questions</td>
+      <td align="center"> <a href="https://aclanthology.org/2022.tacl-1.31.pdf">paper</a> <br /> <a href="https://github.com/stonybrooknlp/musique">project</a>  </td>
+      <td align="center">more hops</td>
+  </tr>
+  <tr>
+      <td align="center">StrategyQA</td>
+      <td align="center">2.7k</td>
+      <td align="center">Wikipedia</td>
+      <td align="center">retrieval</td>
+      <td align="center">yes/no</td>
+      <td align="center">paragraph <br /> sub-questions</td>
+      <td align="center"> <a href="https://aclanthology.org/2021.tacl-1.21.pdf">paper</a> <br /> <a href="https://allenai.org/data/strategyqa">project</a>  </td>
+      <td align="center">implicit mult-hop questions</td>
+  </tr>
+
+  <tr>
+      <th colspan=8 align="center">specific domain</th>
+  </tr >
+  <tr>
+      <td align="center">MedHop</td>
+      <td align="center">2.5k</td>
+      <td align="center">Medline</td>
+      <td align="center">distractor</td>
+      <td align="center">choice</td>
+      <td align="center">-</td>
+      <td align="center"> <a href="https://aclanthology.org/Q18-1021.pdf">paper</a> <br /> <a href="http://qangaroo.cs.ucl.ac.uk/">project</a>  </td>
+      <td align="center">medicine. similar to WikiHop</td>
+  </tr>
+  <tr>
+      <td align="center">QASC</td>
+      <td align="center">9.9k</td>
+      <td align="center">WorldTree</td>
+      <td align="center">retrieval</td>
+      <td align="center">choice</td>
+      <td align="center">sentence</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/1910.11473.pdf">paper</a> <br /> <a href="https://github.com/allenai/qasc">project</a>  </td>
+      <td align="center">science</td>
+  </tr>
+  <tr>
+      <td align="center">eQASC</td>
+      <td align="center">-</td>
+      <td align="center">-</td>
+      <td align="center">-</td>
+      <td align="center">-</td>
+      <td align="center">reasoning path</td>
+      <td align="center"> <a href="http://aclanthology.lst.uni-saarland.de/2020.emnlp-main.10.pdf">paper</a> <br /> <a href="https://allenai.org/data/eqasc">project</a>  </td>
+      <td align="center">annotate reasoning paths for QASC</td>
+  </tr>
+</table>
+
+Papers on dataset artifacts:
+
+1. **Understanding Dataset Design Choices for Multi-hop Reasoning** NAACL (2019)
+
+   *Jifan Chen, Greg Durrett* [[pdf](https://aclanthology.org/N19-1405.pdf)]
+
+2. **Avoiding Reasoning Shortcuts: Adversarial Evaluation, Training, and Model Development for Multi-Hop QA** ACL (2019)
+
+   *Yichen Jiang, Mohit Bansal* [[pdf](https://aclanthology.org/P19-1262.pdf)] [[project](https://github.com/jiangycTarheel-zz/Adversarial-MultiHopQA)]
+
+3. **Compositional Questions Do Not Necessitate Multi-hop Reasoning** ACL (2019)
+
+      *Sewon Min, Eric Wallace, Sameer Singh, Matt Gardner, Hannaneh Hajishirzi, Luke Zettlemoyer* [[pdf](https://aclanthology.org/P19-1416.pdf)] [[project](https://github.com/shmsw25/single-hop-rc)]
+
+4. **Is Multihop QA in DiRe Condition? Measuring and Reducing Disconnected Reasoning** EMNLP (2020)
+
+      *Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, Ashish Sabharwal* [[pdf](https://aclanthology.org/2020.emnlp-main.712.pdf)] [[project](https://github.com/stonybrooknlp/dire)]
+
+
+
+<h4 id="2.3.2">Related Works</h4>
+
+1. **Dynamically Fused Graph Network for Multi-hop Reasoning** ACL (2019)
+
+   *Lin Qiu, Yunxuan Xiao, Yanru Qu, Hao Zhou, Lei Li, Weinan Zhang, Yong Yu* [[pdf](https://aclanthology.org/P19-1617.pdf)] [[project](https://github.com/woshiyyya/DFGN-pytorch)]
+
+2. **Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs** ACL (2019)
+
+   *Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He, Bowen Zhou* [[pdf](https://aclanthology.org/P19-1260.pdf)]
+
+3. **Answering while Summarizing: Multi-task Learning for Multi-hop QA with Evidence Extraction** ACL (2019)
+
+   *Kosuke Nishida, Kyosuke Nishida, Masaaki Nagata, Atsushi Otsuka, Itsumi Saito, Hisako Asano, Junji Tomita* [[pdf](https://aclanthology.org/P19-1225.pdf)]
+
+4. **Multi-hop Reading Comprehension through Question Decomposition and Rescoring** ACL (2019)
+
+   *Sewon Min, Victor Zhong, Luke Zettlemoyer, Hannaneh Hajishirzi* [[pdf](https://aclanthology.org/P19-1613.pdf)] [[project](https://github.com/shmsw25/DecompRC)]
+
+
+5. **Differentiable Reasoning over a Virtual Knowledge Base** ICLR (2020)
+
+   *Bhuwan Dhingra, Manzil Zaheer, Vidhisha Balachandran, Graham Neubig, Ruslan Salakhutdinov, William W. Cohen* [[pdf](https://openreview.net/pdf?id=SJxstlHFPH)] [[project](http://www.cs.cmu.edu/~bdhingra/pages/drkit.html)]
+
+6. **Transformer-XH: Multi-Evidence Reasoning with eXtra Hop Attention** ICLR Poster (2020)
+
+   *Chen Zhao, Chenyan Xiong, Corby Rosset, Xia Song, Paul N. Bennett, Saurabh Tiwary* [[pdf](https://openreview.net/pdf?id=r1eIiCNYwS)] [[project](https://aka.ms/transformer-xh)]
+
+7. **Low-Resource Generation of Multi-hop Reasoning Questions** ACL (2020)
+
+   *Jianxing Yu, Wei Liu, Shuang Qiu, Qinliang Su, Kai Wang, Xiaojun Quan, Jian Yin* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.acl-main.601.pdf)]
+
+8. **SRLGRN: Semantic Role Labeling Graph Reasoning Network** EMNLP (2020)
+
+   *Chen Zheng, Parisa Kordjamshidi* [[pdf](https://aclanthology.org/2020.emnlp-main.714.pdf)]
+
+9. **Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering** ICLR (2020)
+
+   *Akari Asai, Kazuma Hashimoto, Hannaneh Hajishirzi, Richard Socher, Caiming Xiong* [[pdf](https://openreview.net/pdf?id=SJgVHkrYDH)] [[project](https://github.com/AkariAsai/learning_to_retrieve_reasoning_paths)]
+
+10. **Robustifying Multi-hop QA through Pseudo-Evidentiality Training** ACL (2021)
+
+      *Kyungjae Lee, Seung-won Hwang, Sang-eun Han, Dohyeon Lee* [[pdf](https://aclanthology.org/2021.acl-long.476.pdf)]
+
+11. **Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension** EMNLP (2021)
+
+      *Naoya Inoue, Harsh Trivedi, Steven Sinha, Niranjan Balasubramanian, Kentaro Inui* [[pdf](https://aclanthology.org/2021.emnlp-main.490.pdf)] [[project](https://github.com/StonyBrookNLP/suqa)]
+
+12. **Generative Context Pair Selection for Multi-hop Question Answering** EMNLP (2021)
+
+      *Dheeru Dua, Cícero Nogueira dos Santos, Patrick Ng, Ben Athiwaratkun, Bing Xiang, Matt Gardner, Sameer Singh* [[pdf](https://aclanthology.org/2021.emnlp-main.561.pdf)] [[project](https://github.com/dDua/JointQA)]
+
+13. **Breadth First Reasoning Graph for Multi-hop Question Answering** NAACL (2021)
+
+      *Yongjie Huang, Meng Yang* [[pdf](https://aclanthology.org/2021.naacl-main.464.pdf)]
+
+14. **Answering Complex Open-Domain Questions with Multi-Hop Dense Retrieval** ICLR Poster (2021)
+
+      *Wenhan Xiong, Xiang Lorraine Li, Srini Iyer, Jingfei Du, Patrick S. H. Lewis, William Yang Wang, Yashar Mehdad, Scott Yih, Sebastian Riedel, Douwe Kiela, Barlas Oguz* [[pdf](https://openreview.net/pdf?id=EMHoBG0avc1)] [[project](https://github.com/facebookresearch/multihop_dense_retrieval)]
+
+15. **Multi-Step Reasoning Over Unstructured Text with Beam Dense Retrieval** NAACL (2021)
+
+      *Chen Zhao, Chenyan Xiong, Jordan L. Boyd-Graber, Hal Daumé III* [[pdf](https://aclanthology.org/2021.naacl-main.368.pdf)] [[project](https://github.com/henryzhao5852/BeamDR)]
+
+16. **Unsupervised Multi-hop Question Answering by Question Generation** NAACL (2021)
+
+      *Liangming Pan, Wenhu Chen, Wenhan Xiong, Min-Yen Kan, William Yang Wang* [[pdf](https://aclanthology.org/2021.naacl-main.469.pdf)] [[project](https://github.com/teacherpeterpan/Unsupervised-Multi-hop-QA)]
+
+17. **If You Want to Go Far Go Together: Unsupervised Joint Candidate Evidence Retrieval for Multi-hop Question Answering** NAACL (2021)
+
+      *Vikas Yadav, Steven Bethard, Mihai Surdeanu* [[pdf](https://aclanthology.org/2021.naacl-main.363.pdf)] [[project](https://github.com/vikas95/WAIR_interpretability)]
+
+18. **Baleen: Robust Multi-Hop Reasoning at Scale via Condensed Retrieval** NIPS (2021)
+
+      *Omar Khattab, Christopher Potts, Matei A. Zaharia* [[pdf](https://papers.nips.cc/paper/2021/file/e8b1cbd05f6e6a358a81dee52493dd06-Paper.pdf)] [[project](https://github.com/stanford-futuredata/Baleen)]
+
+19. **Modeling Multi-hop Question Answering as Single Sequence Prediction** ACL (2022)
+
+      *Semih Yavuz, Kazuma Hashimoto, Yingbo Zhou, Nitish Shirish Keskar, Caiming Xiong* [[pdf](https://aclanthology.org/2022.acl-long.69.pdf)]
+
+20. **CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation** ACL (2022)
+
+      *Zichu Fei, Qi Zhang, Tao Gui, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang* [[pdf](https://aclanthology.org/2022.acl-long.475.pdf)] [[project](https://github.com/sion-zcfei/CQG)]
+
+
+
+
 
 
 
@@ -823,173 +1125,6 @@ Some papers on dataset artifacts:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Multi-hop Question Answering
-
-### Benchmarks & Datasets
-
-1. **Constructing Datasets for Multi-hop Reading Comprehension Across Documents** TACL (2018)
-
-   *Johannes Welbl, Pontus Stenetorp, Sebastian Riedel* [[pdf](https://aclanthology.org/Q18-1021.pdf)] [[project](http://qangaroo.cs.ucl.ac.uk/)]
-
-2. **HOTPOTQA: A Dataset for Diverse, Explainable Multi-hop Question Answering** EMNLP (2018)
-
-   *Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, Christopher D. Manning* [[pdf](https://aclanthology.org/D18-1259.pdf)] [[project](https://hotpotqa.github.io/)]
-
-3. **R4C: A Benchmark for Evaluating RC Systems to Get the Right Answer for the Right Reason** ACL (2020)
-
-   *Naoya Inoue, Pontus Stenetorp, Kentaro Inui* [[pdf](https://aclanthology.org/2020.acl-main.602.pdf)] [[project](https://naoya-i.github.io/r4c/)]
-
-4. **QASC: A Dataset for Question Answering via Sentence Composition** AAAI (2020)
-
-   *Tushar Khot, Peter Clark, Michal Guerquin, Peter Jansen, Ashish Sabharwal* [[pdf](https://arxiv.org/pdf/1910.11473.pdf)] [[project](https://github.com/allenai/qasc)]
-
-5. **Learning to Explain: Datasets and Models for Identifying Valid Reasoning Chains in Multihop Question-Answering** AAAI (2020)
-
-   *Harsh Jhamtani, Peter Clark* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.emnlp-main.10.pdf)] [[project](https://allenai.org/data/eqasc)]
-
-6. **Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps** COLING (2020)
-
-   *Xanh Ho, Anh-Khoa Duong Nguyen, Saku Sugawara, Akiko Aizawa* [[pdf](https://aclanthology.org/2020.coling-main.580.pdf)] [[project](https://github.com/Alab-NII/2wikimultihop)]
-
-7. **Answering Open-Domain Questions of Varying Reasoning Steps from Text** EMNLP (2021)
-
-   *Peng Qi, Haejun Lee, Tg Sido, Christopher D. Manning* [[pdf](https://aclanthology.org/2021.emnlp-main.292.pdf)] [[project](https://beerqa.github.io/)]
-
-### Papers
-1. **Understanding Dataset Design Choices for Multi-hop Reasoning** NAACL (2019)
-
-   *Jifan Chen, Greg Durrett* [[pdf](https://aclanthology.org/N19-1405.pdf)]
-
-2. **Question Answering by Reasoning Across Documents with Graph Convolutional Networks** NAACL (2019)
-
-   *Nicola De Cao, Wilker Aziz, Ivan Titov* [[pdf](https://aclanthology.org/N19-1240.pdf)]
-
-3. **BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering** NAACL (2019)
-
-   *Yu Cao, Meng Fang, Dacheng Tao* [[pdf](https://aclanthology.org/N19-1032.pdf)] [[project](https://github.com/caoyu1991/BAG)]
-
-4. **Dynamically Fused Graph Network for Multi-hop Reasoning** ACL (2019)
-
-   *Lin Qiu, Yunxuan Xiao, Yanru Qu, Hao Zhou, Lei Li, Weinan Zhang, Yong Yu* [[pdf](https://aclanthology.org/P19-1617.pdf)] [[project](https://github.com/woshiyyya/DFGN-pytorch)]
-
-5. **Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs** ACL (2019)
-
-   *Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He, Bowen Zhou* [[pdf](https://aclanthology.org/P19-1260.pdf)]
-
-6. **Answering while Summarizing: Multi-task Learning for Multi-hop QA with Evidence Extraction** ACL (2019)
-
-   *Kosuke Nishida, Kyosuke Nishida, Masaaki Nagata, Atsushi Otsuka, Itsumi Saito, Hisako Asano, Junji Tomita* [[pdf](https://aclanthology.org/P19-1225.pdf)]
-
-7. **Multi-hop Reading Comprehension through Question Decomposition and Rescoring** ACL (2019)
-
-   *Sewon Min, Victor Zhong, Luke Zettlemoyer, Hannaneh Hajishirzi* [[pdf](https://aclanthology.org/P19-1613.pdf)] [[project](https://github.com/shmsw25/DecompRC)]
-
-8. **NLProlog: Reasoning with Weak Unification for Question Answering in Natural Language** ACL (2019)
-
-   *Leon Weber, Pasquale Minervini, Jannes Münchmeyer, Ulf Leser, Tim Rocktäschel* [[pdf](https://aclanthology.org/P19-1618.pdf)] [[project](https://github.com/leonweber/nlprolog)]
-
-9. **Avoiding Reasoning Shortcuts: Adversarial Evaluation, Training, and Model Development for Multi-Hop QA** ACL (2019)
-
-   *Yichen Jiang, Mohit Bansal* [[pdf](https://aclanthology.org/P19-1262.pdf)] [[project](https://github.com/jiangycTarheel-zz/Adversarial-MultiHopQA)]
-
-10. **Compositional Questions Do Not Necessitate Multi-hop Reasoning** ACL (2019)
-
-      *Sewon Min, Eric Wallace, Sameer Singh, Matt Gardner, Hannaneh Hajishirzi, Luke Zettlemoyer* [[pdf](https://aclanthology.org/P19-1416.pdf)] [[project](https://github.com/shmsw25/single-hop-rc)]
-
-11. **Self-Assembling Modular Networks for Interpretable Multi-Hop Reasoning** EMNLP (2019)
-
-      *Yichen Jiang, Mohit Bansal* [[pdf](http://aclanthology.lst.uni-saarland.de/D19-1455.pdf)] [[project](https://github.com/jiangycTarheel/NMN-MultiHopQA)]
-
-12. **Differentiable Reasoning over a Virtual Knowledge Base** ICLR (2020)
-
-      *Bhuwan Dhingra, Manzil Zaheer, Vidhisha Balachandran, Graham Neubig, Ruslan Salakhutdinov, William W. Cohen* [[pdf](https://openreview.net/pdf?id=SJxstlHFPH)] [[project](http://www.cs.cmu.edu/~bdhingra/pages/drkit.html)]
-
-13. **Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering** ICLR (2020)
-
-      *Akari Asai, Kazuma Hashimoto, Hannaneh Hajishirzi, Richard Socher, Caiming Xiong* [[pdf](https://openreview.net/pdf?id=SJgVHkrYDH)] [[project](https://github.com/AkariAsai/learning_to_retrieve_reasoning_paths)]
-
-14. **Transformer-XH: Multi-Evidence Reasoning with eXtra Hop Attention** ICLR Poster (2020)
-
-      *Chen Zhao, Chenyan Xiong, Corby Rosset, Xia Song, Paul N. Bennett, Saurabh Tiwary* [[pdf](https://openreview.net/pdf?id=r1eIiCNYwS)] [[project](https://aka.ms/transformer-xh)]
-
-15. **Low-Resource Generation of Multi-hop Reasoning Questions** ACL (2020)
-
-      *Jianxing Yu, Wei Liu, Shuang Qiu, Qinliang Su, Kai Wang, Xiaojun Quan, Jian Yin* [[pdf](http://aclanthology.lst.uni-saarland.de/2020.acl-main.601.pdf)]
-
-16. **SRLGRN: Semantic Role Labeling Graph Reasoning Network** EMNLP (2020)
-
-      *Chen Zheng, Parisa Kordjamshidi* [[pdf](https://aclanthology.org/2020.emnlp-main.714.pdf)]
-
-17. **Is Multihop QA in DiRe Condition? Measuring and Reducing Disconnected Reasoning** EMNLP (2020)
-
-      *Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, Ashish Sabharwal* [[pdf](https://aclanthology.org/2020.emnlp-main.712.pdf)] [[project](https://github.com/stonybrooknlp/dire)]
-
-18. **Answering Complex Open-Domain Questions with Multi-Hop Dense Retrieval** ICLR Poster (2021)
-
-      *Wenhan Xiong, Xiang Lorraine Li, Srini Iyer, Jingfei Du, Patrick S. H. Lewis, William Yang Wang, Yashar Mehdad, Scott Yih, Sebastian Riedel, Douwe Kiela, Barlas Oguz* [[pdf](https://openreview.net/pdf?id=EMHoBG0avc1)] [[project](https://github.com/facebookresearch/multihop_dense_retrieval)]
-
-19. **Multi-Step Reasoning Over Unstructured Text with Beam Dense Retrieval** NAACL (2021)
-
-      *Chen Zhao, Chenyan Xiong, Jordan L. Boyd-Graber, Hal Daumé III* [[pdf](https://aclanthology.org/2021.naacl-main.368.pdf)] [[project](https://github.com/henryzhao5852/BeamDR)]
-
-20. **Unsupervised Multi-hop Question Answering by Question Generation** NAACL (2021)
-
-      *Liangming Pan, Wenhu Chen, Wenhan Xiong, Min-Yen Kan, William Yang Wang* [[pdf](https://aclanthology.org/2021.naacl-main.469.pdf)] [[project](https://github.com/teacherpeterpan/Unsupervised-Multi-hop-QA)]
-
-21. **Robustifying Multi-hop QA through Pseudo-Evidentiality Training** ACL (2021)
-
-      *Kyungjae Lee, Seung-won Hwang, Sang-eun Han, Dohyeon Lee* [[pdf](https://aclanthology.org/2021.acl-long.476.pdf)]
-
-22. **Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension** EMNLP (2021)
-
-      *Naoya Inoue, Harsh Trivedi, Steven Sinha, Niranjan Balasubramanian, Kentaro Inui* [[pdf](https://aclanthology.org/2021.emnlp-main.490.pdf)] [[project](https://github.com/StonyBrookNLP/suqa)]
-
-23. **Generative Context Pair Selection for Multi-hop Question Answering** EMNLP (2021)
-
-      *Dheeru Dua, Cícero Nogueira dos Santos, Patrick Ng, Ben Athiwaratkun, Bing Xiang, Matt Gardner, Sameer Singh* [[pdf](https://aclanthology.org/2021.emnlp-main.561.pdf)] [[project](https://github.com/dDua/JointQA)]
-
-24. **Breadth First Reasoning Graph for Multi-hop Question Answering** NAACL (2021)
-
-      *Yongjie Huang, Meng Yang* [[pdf](https://aclanthology.org/2021.naacl-main.464.pdf)]
-
-25. **Baleen: Robust Multi-Hop Reasoning at Scale via Condensed Retrieval** NIPS (2021)
-
-      *Omar Khattab, Christopher Potts, Matei A. Zaharia* [[pdf](https://papers.nips.cc/paper/2021/file/e8b1cbd05f6e6a358a81dee52493dd06-Paper.pdf)] [[project](https://github.com/stanford-futuredata/Baleen)]
-
-26. **Deep Inductive Logic Reasoning for Multi-Hop Reading Comprehension** ACL (2022)
-
-      *Wenya Wang, Sinno Jialin Pan* [[pdf](https://aclanthology.org/2022.acl-long.343.pdf)]
-
-27. **CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation** ACL (2022)
-
-      *Zichu Fei, Qi Zhang, Tao Gui, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang* [[pdf](https://aclanthology.org/2022.acl-long.475.pdf)] [[project](https://github.com/sion-zcfei/CQG)]
-
-28. **Modeling Multi-hop Question Answering as Single Sequence Prediction** ACL (2022)
-
-      *Semih Yavuz, Kazuma Hashimoto, Yingbo Zhou, Nitish Shirish Keskar, Caiming Xiong* [[pdf](https://aclanthology.org/2022.acl-long.69.pdf)]
 
 
 
