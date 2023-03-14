@@ -3,7 +3,7 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
 - [Methodology](#1)
    - [Large Languague Model](#1.1)
-- [NLP Topics](#2)
+- [Natural Language Reasoning](#2)
    - [Classical Logical Reasoning](#2.1)
       - [Datasets & Benchmarks](#2.1.1)
       - [Related Works](#2.1.2)
@@ -13,9 +13,12 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
    - [Multi-hop Question Answering](#2.3)
       - [Datasets & Benchmarks](#2.3.1)
       - [Related Works](#2.3.2)
-   - [Commonsense Reasoning](#commonsense-reasoning)
-   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
-   - [Mathematical Reasoning](#mathematical-reasoning)
+   - [Commonsense Reasoning](#2.4)
+      - [Knowledge Bases](#2.4.1)
+      - [Datasets & Benchmarks](#2.4.2)
+      - [Related Works](#2.4.3)
+- [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
+- [Mathematical Reasoning](#mathematical-reasoning)
 
 
 
@@ -92,6 +95,9 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 <h2 id="2">NLP Topics</h2>
 
 <h3 id="2.1">Classical Logical Reasoning</h3>
+
+Some datasets explicitly target at philosophical reasoning types, e.g. deduction, abduction and induction. Thus, we call them as ``classical logical reasoning tasks''. A key characteristic of this topic is that tasks are mostly artificial to study reasoning. 
+
 
 <h4 id="2.1.1">Datasets & Benchmarks</h4>
 
@@ -195,7 +201,7 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
       <td align="center">43.8k</td>
       <td align="center">classification, generation</td>
       <td align="center"> <a href="https://aclanthology.org/2020.findings-emnlp.418.pdf">paper</a> <br /> <a href="https://github.com/rudinger/defeasible-nli">project</a>  </td>
-      <td align="center">direction on evidence updation, based on SNLI, ATOMIC, and Social Chemistry</td>
+      <td align="center">direction on evidence updation, based on SNLI, ATOMIC, and Social-Chem-101</td>
   </tr>
 </table>
 
@@ -541,6 +547,8 @@ Papers on dataset artifacts:
 This topic studies answering the complex questions that require to reason over evidences scattered in different contexts. The term ``hop'' here indicates the number of contexts required to reason. There are two settings on the required contexts: (1) all provided along with some distractors (i.e. distractor), (2) need to be retrieved (i.e. retrieval).
 
 
+
+
 <h4 id="2.3.1">Datasets & Benchmarks</h4>
 
 Some datasets annotate the ground supporting evidences (paragraph-level, sentence-level, or triple-level), decomposed sub-questions (and the corresponding evidences), or reasoning paths.
@@ -586,9 +594,9 @@ Some datasets annotate the ground supporting evidences (paragraph-level, sentenc
       <td align="center">-</td>
       <td align="center">-</td>
       <td align="center">-</td>
-      <td align="center">reasoning path</td>
+      <td align="center">triple</td>
       <td align="center"> <a href="https://aclanthology.org/2020.acl-main.602.pdf">paper</a> <br /> <a href="https://naoya-i.github.io/r4c/">project</a>  </td>
-      <td align="center">annotate reasoning paths for HotpotQA</td>
+      <td align="center">annotate atomic facts for HotpotQA</td>
   </tr>
   <tr>
       <td align="center">BeerQA</td>
@@ -796,50 +804,75 @@ Papers on dataset artifacts:
 
 
 
+<h3 id="2.4">Commonsense Reasoning</h3>
 
-## Commonsense Reasoning
-
-### Knowledge
-1. **CYC: A Large-Scale Investment in Knowledge Infrastructure** Commun. ACM (1995)
-
-   *Douglas B. Lenat* [[pdf](https://dl.acm.org/doi/pdf/10.1145/219717.219745)]
-
-2. **ConceptNet — A Practical Commonsense Reasoning Tool-Kit** BT technology (2004)
-
-   *Hugo Liu, Push Singh* [[pdf](https://agents.media.mit.edu/projects/commonsense/ConceptNet-BTTJ.pdf)] [[project](http://www.conceptnet.org/)]
-
-3. **ConceptNet 5.5: An Open Multilingual Graph of General Knowledge** AAAI (2017)
-
-   *Robyn Speer, Joshua Chin, Catherine Havasi* [[pdf](https://arxiv.org/pdf/1612.03975.pdf)] [[project](https://github.com/commonsense/conceptnet5)]
-
-4. **Event2Mind: Commonsense Inference on Events, mental states** ACL (2018)
-
-   *Hannah Rashkin, Maarten Sap, Emily Allaway, Noah A. Smith, Yejin Choi* [[pdf](https://aclanthology.org/P18-1043.pdf)] [[project](https://tinyurl.com/event2mind)]
-
-5. **ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning** AAAI (2019)
-
-   *Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi* [[pdf](https://arxiv.org/pdf/1811.00146.pdf)] [[project](https://allenai.org/data/atomic)]
-
-6. **GLUCOSE: GeneraLized and COntextualized Story Explanations** EMNLP (2020)
-
-   *Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David W. Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll* [[pdf](https://aclanthology.org/2020.emnlp-main.370.pdf)] [[project](https://tinyurl.com/yyeo92pt)]
-
-7. **Social Chemistry 101: Learning to Reason about Social and Moral Norms** EMNLP (2020)
-
-   *Maxwell Forbes, Jena D. Hwang, Vered Shwartz, Maarten Sap, Yejin Choi* [[pdf](https://aclanthology.org/2020.emnlp-main.48.pdf)] [[project](https://github.com/mbforbes/social-chemistry-101)]
-
-8. **GenericsKB: A Knowledge Base of Generic Statements** arXiv (2020)
-
-   *Sumithra Bhakthavatsalam, Chloe Anastasiades, Peter Clark* [[pdf](https://arxiv.org/pdf/2005.00660.pdf)] [[project](https://allenai.org/data/genericskb)]
-
-9. **COMET-ATOMIC 2020: On Symbolic and Neural Commonsense Knowledge Graphs** AAAI (2021)
-
-   *Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi* [[pdf](https://arxiv.org/pdf/2010.05953.pdf)] [[project](https://github.com/allenai/comet-atomic-2020)]
+Commonsense reasoning deals with implicit commonsense knowledge, which may be non-trivial to machines since they are difficult to retrieve from the web due to reporting bias. <!-- While it is named with "reasoning", the common theme of this topic is commonsense knowledge rather than reasoning.  -->
 
 
 
+<h4 id="2.4.1">Knowledge Bases</h4>
 
-### Benchmarks & Datasets
+<table>
+  <tr>
+      <th align="center">KB</th>
+      <th align="center">Type of Knowledge</th>
+      <th align="center">Format of Knowledge</th>
+      <th align="center">Link</th>
+  </tr >
+
+  <tr>
+      <td align="center">CYC</td>
+      <td align="center">generic</td>
+      <td align="center">LISP-style logic</td>
+      <td align="center"> <a href="https://dl.acm.org/doi/pdf/10.1145/219717.219745">paper</a> <br /> project </td>
+  </tr>
+  <tr>
+      <td align="center">ConceptNet</td>
+      <td align="center">linguistics</td>
+      <td align="center">triple</td>
+      <td align="center"> <a href="https://agents.media.mit.edu/projects/commonsense/ConceptNet-BTTJ.pdf">paper</a> <br /> <a href="http://www.conceptnet.org/">project</a>  </td>
+  </tr>
+  <tr>
+      <td align="center">ConceptNet 5.5</td>
+      <td align="center">linguistics</td>
+      <td align="center">triple</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/1612.03975.pdf">paper</a> <br /> <a href="https://github.com/commonsense/conceptnet5">project</a>  </td>
+  </tr>
+  <tr>
+      <td align="center">GenericsKB</td>
+      <td align="center">generic</td>
+      <td align="center">statement</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2005.00660.pdf">paper</a> <br /> <a href="https://allenai.org/data/genericskb">project</a>  </td>
+  </tr>
+  <tr>
+      <td align="center">Event2Mind</td>
+      <td align="center">mental state</td>
+      <td align="center">statement</td>
+      <td align="center"> <a href="https://aclanthology.org/P18-1043.pdf">paper</a> <br /> <a href="https://tinyurl.com/event2mind">project</a>  </td>
+  </tr>
+  <tr>
+      <td align="center">ATOMIC</td>
+      <td align="center">social causality</td>
+      <td align="center">statement</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/1811.00146.pdf">paper</a> <br /> <a href="https://allenai.org/data/atomic">project</a>  </td>
+  </tr>
+  <tr>
+      <td align="center">ATOMIC 2020</td>
+      <td align="center">+physical and eventive causality</td>
+      <td align="center">statement</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2010.05953.pdf">paper</a> <br /> <a href="https://github.com/allenai/comet-atomic-2020">project</a>  </td>
+  </tr>
+  <tr>
+      <td align="center">Social-Chem-101</td>
+      <td align="center">rules-of-thumb</td>
+      <td align="center">statement</td>
+      <td align="center"> <a href="https://aclanthology.org/2020.emnlp-main.48.pdf">paper</a> <br /> <a href="https://github.com/mbforbes/social-chemistry-101">project</a>  </td>
+  </tr>
+</table>
+
+
+<h4 id="2.4.2">Datasets & Benchmarks</h4>
+
 1. **Choice of Plausible Alternatives:An Evaluation of Commonsense Causal Reasoning** AAAI (2011)
 
    *Melissa Roemmele, Cosmin Adrian Bejan, Andrew S. Gordon* [[pdf](https://people.ict.usc.edu/~gordon/publications/AAAI-SPRING11A.PDF)] [[project](https://people.ict.usc.edu/~gordon/copa.html)]
@@ -1008,7 +1041,12 @@ Papers on dataset artifacts:
 
       *Matthew Ho, Aditya Sharma, Justin Chang, Michael Saxon, Sharon Levy, Yujie Lu, William Yang Wang* [[pdf](https://arxiv.org/pdf/2210.12152.pdf)]
 
-### Papers
+
+
+
+<h4 id="2.4.3">Related Works</h4>
+
+
 
 1. **Attention Is (not) All You Need for Commonsense Reasoning** ACL (2019)
 
@@ -1117,8 +1155,6 @@ Papers on dataset artifacts:
 27. **GreaseLM: Graph REASoning Enhanced Language Models** ICLR Spotlight (2022)
 
       *Xikun Zhang, Antoine Bosselut, Michihiro Yasunaga, Hongyu Ren, Percy Liang, Christopher D. Manning, Jure Leskovec* [[pdf](https://openreview.net/pdf?id=41e9o6cQPj)] [[project](https://github.com/snap-stanford/GreaseLM)]
-
-
 
 
 
