@@ -112,7 +112,7 @@ Some datasets explicitly target at philosophical reasoning types, e.g. deduction
   </tr >
   
   <tr>
-      <th rowspan="6" colspan="2" align="center" valign="middle">Deductive Reasoning</th>
+      <th rowspan="7" colspan="2" align="center" valign="middle">Deductive Reasoning</th>
       <td align="center">babI-15</td>
       <td align="center">-</td>
       <td align="center">extraction</td>
@@ -146,6 +146,13 @@ Some datasets explicitly target at philosophical reasoning types, e.g. deduction
       <td align="center">generation</td>
       <td align="center"> <a href="https://arxiv.org/pdf/2203.15099.pdf">paper</a> <br /> <a href="https://github.com/google-research/google-research/tree/master/logic_inference_dataset">project</a>  </td>
       <td align="center">synthetic, more tasks</td>
+  </tr>
+  <tr>
+      <td align="center">RobustLR</td>
+      <td align="center">120k</td>
+      <td align="center">classification</td>
+      <td align="center"> <a href="https://aclanthology.org/2022.emnlp-main.653/">paper</a> <br /> <a href="https://github.com/INK-USC/RobustLR">project</a>  </td>
+      <td align="center">synthetic, robustness</td>
   </tr>
   <tr>
       <td align="center">FOLIO</td>
