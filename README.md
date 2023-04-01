@@ -186,6 +186,13 @@ Some datasets explicitly target at philosophical reasoning types, e.g. deduction
       <td align="center">synthetic, more tasks</td>
   </tr>
   <tr>
+      <td align="center">RobustLR</td>
+      <td align="center">120k</td>
+      <td align="center">classification</td>
+      <td align="center"> <a href="https://aclanthology.org/2022.emnlp-main.653/">paper</a> <br /> <a href="https://github.com/INK-USC/RobustLR">project</a>  </td>
+      <td align="center">synthetic, robustness</td>
+  </tr>
+  <tr>
       <td align="center">FOLIO</td>
       <td align="center">1.4k</td>
       <td align="center">classification, generation</td>
