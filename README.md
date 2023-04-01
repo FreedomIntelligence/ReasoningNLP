@@ -1,17 +1,19 @@
 # ReasoningNLP
 Paper list on reasoning in NLP. Here we mainly collect papers about datasets and methods using PLMs (under the progress). 
 
-See our survey on natural language reasoning: 
+**See our survey on natural language reasoning:**
 
 - [Nature Language Reasoning, A Survey](https://arxiv.org/pdf/2303.14725.pdf)
 
 Here are anohter two related surveys on LLM prompting: 
 
-- [Reasoning with Language Model Prompting: A Survey](https://arxiv.org/pdf/2212.09597.pdf)
-- [Towards Reasoning in Large Language Models: A Survey](https://arxiv.org/pdf/2212.10403.pdf)
+- [Reasoning with Language Model Prompting: A Survey](https://arxiv.org/pdf/2212.09597.pdf) | [resources](https://github.com/zjunlp/Prompt4ReasoningPapers)
+- [Towards Reasoning in Large Language Models: A Survey](https://arxiv.org/pdf/2212.10403.pdf) | [resources](https://github.com/jeffhj/LM-reasoning)
 
 
-**Table of Contents**:
+
+<h2>Table of Contents</h2>
+
 - [Methodology](#1)
    - [Reasoning Paradigm](#1.1)
       - [End-to-End Reasoning](#1.1.1)
@@ -1360,6 +1362,9 @@ There are some datasets collected from realistic examinations or tests or explic
 
 <table>
   <tr>
+      <th colspan=8 align="center">Realistic Examinations</th>
+  </tr >
+  <tr>
       <th align="center">Dataset</th>
       <th align="center">Size</th>
       <th align="center">Domain</th>
@@ -1440,6 +1445,35 @@ There are some datasets collected from realistic examinations or tests or explic
       <td align="center">NLI</td>
       <td align="center"> <a href="https://arxiv.org/pdf/2011.04864.pdf">paper</a> <br /> <a href="https://github.com/csitfun/ConTRoL-dataset">project</a>  </td>
       <td align="center">passage-level</td>
+  </tr>
+
+  <tr>
+      <th colspan=8 align="center">Diagnostic Benchmarks for LLMs</th>
+  </tr >
+  <tr>
+      <th align="center">Benchmark</th>
+      <th align="center">Tasks</th>
+      <th align="center">Link</th>
+      <th align="center">Remark</th>
+  </tr >
+  
+  <tr>
+      <td align="center">BIG-Bench</td>
+      <td align="center">204</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2206.04615.pdf">paper</a> <br /> <a href="https://github.com/google/BIG-bench">project</a>  </td>
+      <td align="center">believed to be beyond the capabilities of current PLMs</td>
+  </tr>
+  <tr>
+      <td align="center">BBH</td>
+      <td align="center">23</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2210.09261.pdf">paper</a> <br /> <a href="https://github.com/suzgunmirac/BIG-Bench-Hard">project</a>  </td>
+      <td align="center">challenging BIG-Bench tasks</td>
+  </tr>
+  <tr>
+      <td align="center">MMLU</td>
+      <td align="center">57</td>
+      <td align="center"> <a href="https://arxiv.org/pdf/2009.03300.pdf">paper</a> <br /> <a href="https://github.com/hendrycks/test">project</a>  </td>
+      <td align="center">across a diverse set of subjects that humans learn</td>
   </tr>
 </table>
 
@@ -1738,4 +1772,4 @@ There are some datasets collected from realistic examinations or tests or explic
 
 ## Contributor
 
-Fei Yu
+Fei YU
