@@ -403,7 +403,7 @@ There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase
       <th align="center">Remark</th>
   </tr >
   <tr>
-      <th colspan=5 align="center">generic</th>
+      <th colspan=4 align="center">generic</th>
   </tr >
 
   <tr>
@@ -456,7 +456,7 @@ There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase
   </tr>
 
   <tr>
-      <th colspan=5 align="center">science</th>
+      <th colspan=4 align="center">science</th>
   </tr >
   <tr>
       <td align="center">SciTail</td>
@@ -475,6 +475,9 @@ There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase
 Recently, some datasets are proposed to model different subjective opinions (on classifying into which class) of crowdworkers.
 
 <table>
+  <tr>
+      <th colspan=5 align="center">Subjective Opinions</th>
+  </tr >
   <tr>
       <th align="center">Dataset</th>
       <th align="center">Domain</th>
@@ -501,6 +504,9 @@ Recently, some datasets are proposed to model different subjective opinions (on 
 
 Some datasets for other language:
 <table>
+  <tr>
+      <th colspan=4 align="center">Other Languages</th>
+  </tr >
   <tr>
       <th align="center">Dataset</th>
       <th align="center">Language</th>
@@ -867,7 +873,7 @@ There are mainly three types of reasoning datasets towards "what" (i.e. assertio
 
 <table>
   <tr>
-      <th colspan=8 align="center">"What" Commonsense Reasoning</th>
+      <th colspan=6 align="center">"What" Commonsense Reasoning</th>
   </tr >
   <tr>
       <th align="center">Dataset</th>
@@ -910,7 +916,7 @@ There are mainly three types of reasoning datasets towards "what" (i.e. assertio
 
 <table>
   <tr>
-      <th colspan=8 align="center">"What if / Why" Commonsense Reasoning</th>
+      <th colspan=6 align="center">"What if / Why" Commonsense Reasoning</th>
   </tr >
   <tr>
       <th align="center">Dataset</th>
@@ -1019,7 +1025,7 @@ There are mainly three types of reasoning datasets towards "what" (i.e. assertio
 
 <table>
   <tr>
-      <th colspan=8 align="center">"How" Commonsense Reasoning</th>
+      <th colspan=6 align="center">"How" Commonsense Reasoning</th>
   </tr >
   <tr>
       <th align="center">Dataset</th>
@@ -1054,7 +1060,7 @@ Some datasets involve multiple types of reasoning.
 
 <table>
   <tr>
-      <th colspan=8 align="center">Hybrid Commonsense Reasoning</th>
+      <th colspan=5 align="center">Hybrid Commonsense Reasoning</th>
   </tr >
   <tr>
       <th align="center">Dataset</th>
@@ -1362,7 +1368,7 @@ There are some datasets collected from realistic examinations or tests or explic
 
 <table>
   <tr>
-      <th colspan=8 align="center">Realistic Examinations</th>
+      <th colspan=7 align="center">Realistic Examinations</th>
   </tr >
   <tr>
       <th align="center">Dataset</th>
@@ -1448,7 +1454,7 @@ There are some datasets collected from realistic examinations or tests or explic
   </tr>
 
   <tr>
-      <th colspan=8 align="center">Diagnostic Benchmarks for LLMs</th>
+      <th colspan=4 align="center">Diagnostic Benchmarks for LLMs</th>
   </tr >
   <tr>
       <th align="center">Benchmark</th>
