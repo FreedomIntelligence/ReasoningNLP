@@ -163,14 +163,14 @@ Some datasets explicitly target at philosophical reasoning types, e.g. deduction
       <td align="center">ProofWriter</td>
       <td align="center">>500k</td>
       <td align="center">classification</td>
-      <td align="center"> <a href="https://www.cs.ox.ac.uk/isg/conferences/tmp-proceedings/NeSy2022/paper15.pdf">paper</a> <br /> <a href="https://github.com/Strong-AI-Lab/PARARULE-Plus">project</a>  </td>
+      <td align="center"> <a href="https://aclanthology.org/2021.findings-acl.317.pdf">paper</a> <br /> <a href="https://allenai.org/data/proofwriter">project</a>  </td>
       <td align="center">improvement on RuleTaker, + open-world assumption</td>
   </tr>
   <tr>
       <td align="center">PARARULE Plus</td>
       <td align="center">400k</td>
       <td align="center">classification</td>
-      <td align="center"> <a href="https://aclanthology.org/2021.findings-acl.317.pdf">paper</a> <br /> <a href="https://allenai.org/data/proofwriter">project</a>  </td>
+      <td align="center"> <a href="https://www.cs.ox.ac.uk/isg/conferences/tmp-proceedings/NeSy2022/paper15.pdf">paper</a> <br /> <a href="https://github.com/Strong-AI-Lab/PARARULE-Plus">project</a>  </td>
       <td align="center">improvement on ParaRules, addresses the depth imbalance issue</td>
   </tr>
   <tr>
@@ -441,18 +441,6 @@ There are mainly three types of premise-hypothesis pairs in NLI task: paraphrase
       <td align="center">10k</td>
       <td align="center"> <a href="https://aclanthology.org/I17-1011.pdf">paper</a> <br /> <a href="https://github.com/aylai/MultiPremiseEntailment">project</a>  </td>
       <td align="center">multiple premises</td>
-  </tr>
-  <tr>
-      <td align="center">UNLI</td>
-      <td align="center">61k</td>
-      <td align="center"> <a href="https://aclanthology.org/2020.acl-main.774.pdf">paper</a> <br /> <a href="http://nlp.jhu.edu/unli">project</a>  </td>
-      <td align="center">subjective probability assessment (regression rather than binary), based on SNLI</td>
-  </tr>
-  <tr>
-      <td align="center">ChaosNLI</td>
-      <td align="center">464k</td>
-      <td align="center"> <a href="https://aclanthology.org/2020.emnlp-main.734.pdf">paper</a> <br /> <a href="https://github.com/easonnie/ChaosNLI">project</a>  </td>
-      <td align="center">human opinion distribution, based on SNLI, MultiNLI and &alpha;NLI</td>
   </tr>
 
   <tr>
@@ -1452,7 +1440,11 @@ There are some datasets collected from realistic examinations or tests or explic
       <td align="center"> <a href="https://arxiv.org/pdf/2011.04864.pdf">paper</a> <br /> <a href="https://github.com/csitfun/ConTRoL-dataset">project</a>  </td>
       <td align="center">passage-level</td>
   </tr>
+</table>
 
+
+
+<table>
   <tr>
       <th colspan=4 align="center">Diagnostic Benchmarks for LLMs</th>
   </tr >
@@ -1482,10 +1474,6 @@ There are some datasets collected from realistic examinations or tests or explic
       <td align="center">across a diverse set of subjects that humans learn</td>
   </tr>
 </table>
-
-
-
-
 
 
 
