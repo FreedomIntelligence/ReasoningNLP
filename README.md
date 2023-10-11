@@ -3,7 +3,7 @@ Paper list on reasoning in NLP. Here we mainly collect papers about datasets and
 
 **See our survey on natural language reasoning:**
 
-- [Nature Language Reasoning, A Survey](https://arxiv.org/pdf/2303.14725.pdf)
+- [Natural  Language Reasoning, A Survey](https://arxiv.org/pdf/2303.14725.pdf)
 
 Here are anohter two related surveys on LLM prompting: 
 
