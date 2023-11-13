@@ -201,6 +201,13 @@ Some datasets explicitly target at philosophical reasoning types, e.g. deduction
       <td align="center"> <a href="https://aclanthology.org/2022.emnlp-main.653/">paper</a> <br /> <a href="https://github.com/INK-USC/RobustLR">project</a>  </td>
       <td align="center">synthetic, robustness on logical semantics</td>
   </tr>
+  <tr>
+      <td align="center">FLD</td>
+      <td align="center">>80k</td>
+      <td align="center">generation</td>
+      <td align="center"> <a href="https://arxiv.org/abs/2308.07336">paper</a> <br /> <a href="https://github.com/hitachi-nlp/FLD">project</a>  </td>
+      <td align="center">synthetic, generalization of ProofWriter or AAC, with deduction rules well-grounded on formal logic theory</td>
+  </tr>
 
   <tr>
       <th rowspan="6" align="center" valign="middle">Defeasible Reasoning</th>
@@ -328,6 +335,10 @@ Deductive reasoning:
 16. **LAMBADA: Backward Chaining for Automated Reasoning in Natural Language** arXiv (2022)
 
       *Seyed Mehran Kazemi, Najoung Kim, Deepti Bhatia, Xin Xu, Deepak Ramachandran* [[pdf](https://arxiv.org/pdf/2212.13894.pdf)]
+
+17. **Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic* ICML (2023)
+
+      *Terufumi Morishita, Gaku Morio, Atsuki Yamaguchi, Yasuhiro Sogawa* [[pdf](https://arxiv.org/abs/2308.07336)]
 
 
 Defeasible reasoning:
