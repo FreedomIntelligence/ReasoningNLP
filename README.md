@@ -145,7 +145,7 @@ Some datasets explicitly target at philosophical reasoning types, e.g. deduction
   </tr >
   
   <tr>
-      <th rowspan="8" colspan="2" align="center" valign="middle">Deductive Reasoning</th>
+      <th rowspan="9" colspan="2" align="center" valign="middle">Deductive Reasoning</th>
       <td align="center">babI-15</td>
       <td align="center">-</td>
       <td align="center">extraction</td>
@@ -336,9 +336,9 @@ Deductive reasoning:
 
       *Seyed Mehran Kazemi, Najoung Kim, Deepti Bhatia, Xin Xu, Deepak Ramachandran* [[pdf](https://arxiv.org/pdf/2212.13894.pdf)]
 
-17. **Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic* ICML (2023)
+17. **Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic** ICML (2023)
 
-      *Terufumi Morishita, Gaku Morio, Atsuki Yamaguchi, Yasuhiro Sogawa* [[pdf](https://arxiv.org/abs/2308.07336)]
+      *Terufumi Morishita, Gaku Morio, Atsuki Yamaguchi, Yasuhiro Sogawa* [[pdf](https://arxiv.org/abs/2308.07336)] [[project](https://github.com/hitachi-nlp/FLD)]
 
 
 Defeasible reasoning:
