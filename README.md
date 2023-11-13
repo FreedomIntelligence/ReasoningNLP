@@ -203,7 +203,7 @@ Some datasets explicitly target at philosophical reasoning types, e.g. deduction
   </tr>
   <tr>
       <td align="center">FLD</td>
-      <td align="center">>80k</td>
+      <td align="center">80k</td>
       <td align="center">generation</td>
       <td align="center"> <a href="https://arxiv.org/abs/2308.07336">paper</a> <br /> <a href="https://github.com/hitachi-nlp/FLD">project</a>  </td>
       <td align="center">synthetic, generalization of ProofWriter or AAC, with deduction rules well-grounded on formal logic theory</td>
