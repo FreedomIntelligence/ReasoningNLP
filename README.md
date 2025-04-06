@@ -359,7 +359,11 @@ Deductive reasoning:
 
 24. **DeepQR: Neural-based Quality Ratings for Learnersourced Multiple-Choice Questions** AAAI/EAAI (2022)
 
-      *Lin Ni, Qiming Bao, Xiaoxuan Li, Qianqian Qi, Paul Denny, Jim Warren, Michael Witbrock, Jiamou Liu* [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/21562)] 
+      *Lin Ni, Qiming Bao, Xiaoxuan Li, Qianqian Qi, Paul Denny, Jim Warren, Michael Witbrock, Jiamou Liu* [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/21562)]
+
+25. **Developing And Assessing Language Models For Logical Reasoning Over Natural Language** University of Auckland PhD Thesis (2025)
+
+      *Qiming Bao* [[pdf](https://hdl.handle.net/2292/71735)] 
 
 Defeasible reasoning:
 
