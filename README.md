@@ -329,6 +329,41 @@ Deductive reasoning:
 
       *Seyed Mehran Kazemi, Najoung Kim, Deepti Bhatia, Xin Xu, Deepak Ramachandran* [[pdf](https://arxiv.org/pdf/2212.13894.pdf)]
 
+17. **Abstract Meaning Representation-Based Logic-Driven Data Augmentation for Logical Reasoning** ACL Findings (2024)
+
+      *Qiming Bao, Alex Peng, Zhenyun Deng, Wanjun Zhong, Gaël Gendron, Neşet Tan, Nathan Young, Yang Chen, Yonghua Zhu, Michael Witbrock, Jiamou Liu* [[pdf](https://aclanthology.org/2024.findings-acl.353/)]
+
+18. **Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation** NeSy (2022)
+
+      *Qiming Bao, Alex Peng, Tim Hartill, Neset Tan, Zhenyun Deng, Michael Witbrock, Jiamou Liu* [[pdf](https://arxiv.org/abs/2207.14000)]
+
+19. **AbductionRules: Training Transformers to Explain Unexpected Inputs** ACL Findings (2022)
+
+      *Nathan Young, Qiming Bao, Joshua Ljudo Bensemann, Michael J. Witbrock* [[pdf](https://aclanthology.org/2022.findings-acl.19/)]
+
+20. **Assessing and Enhancing the Robustness of Large Language Models with Task Structure Variations for Logical Reasoning** ICONIP (2024)
+
+      *Qiming Bao, Gaël Gendron, Alex Peng, Neset Tan, Michael Witbrock, Jiamou Liu* [[pdf](https://arxiv.org/abs/2310.09430)]
+
+21. **ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning** NucLeaR@AAAI (2024)
+
+      *Zhongsheng Wang, Jiamou Liu, Qiming Bao, Hongfei Rong, Jingfeng Zhang* [[pdf](https://openreview.net/forum?id=AOqGF7Po7Z)]
+
+22. **Exploring Iterative Enhancement for Improving Learnersourced Multiple-Choice Question Explanations with Large Language Models** AAAI/EAAI (2025)
+
+      *Qiming Bao, Juho Leinonen, Alex Yuxuan Peng, Wanjun Zhong, Tim Pistotti, Alice Huang, Paul Denny, Michael Witbrock, Jiamou Liu* [[pdf](http://arxiv.org/abs/2309.10444)] 
+
+23. **Large Language Models Are Not Strong Abstract Reasoners** IJCAI (2024)
+
+      *Gaël Gendron, Qiming Bao, Michael Witbrock, Gillian Dobbie* [[pdf](https://arxiv.org/abs/2305.19555)]
+
+24. **DeepQR: Neural-based Quality Ratings for Learnersourced Multiple-Choice Questions** AAAI/EAAI (2022)
+
+      *Lin Ni, Qiming Bao, Xiaoxuan Li, Qianqian Qi, Paul Denny, Jim Warren, Michael Witbrock, Jiamou Liu* [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/21562)]
+
+25. **Developing And Assessing Language Models For Logical Reasoning Over Natural Language** University of Auckland PhD Thesis (2025)
+
+      *Qiming Bao* [[pdf](https://hdl.handle.net/2292/71735)] 
 
 Defeasible reasoning:
 
