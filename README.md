@@ -1783,7 +1783,9 @@ There are some datasets collected from realistic examinations or tests or explic
 
       *Yongwei Zhou, Junwei Bao, Chaoqun Duan, Haipeng Sun, Jiahui Liang, Yifan Wang, Jing Zhao, Youzheng Wu, Xiaodong He, Tiejun Zhao* [[pdf](https://aclanthology.org/2022.naacl-main.119.pdf)] [[project](https://github.com/JD-AI-Research-NLP/OPERA)]
 
+19. **Making Large Language Models Better Reasoners with Alignment** arXiv (2023)
 
+      *Peiyi Wang, Lei Li, Liang Chen, Feifan Song, Binghuai Lin, Yunbo Cao, Tianyu Liu, Zhifang Sui* [[pdf](https://arxiv.org/pdf/2309.02144)]
 
 
 
